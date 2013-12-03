@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title></title>
+        <link type="text/css" href="/Public/widget/HomeIndex/css/home.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="homeindex_{$style}">
+        </div>
+        <div id="xfui-articleList" class="xfui-box xfui-articleList ">
+            <div class="xfui-articleList-header xfui-articleList-{$style}">
+                <a class="xfui-articleList-header-more" href="{$more}">更多&gt;&gt;</a>
+            </div>
+			<volist name="postlist" id="plist" >
+            <div class="xfui-box xfui-articleitem ">
+                <div class="xfui-articleitem-img">
+                    <a href="{$plist.url}"><img src="{$plist.thumb}" onerror="this.src='/Public/images/indexnopic.jpg'" title="房屋" alt="房屋" width="140px" height="105px"></a>
+                </div>
+                <div class="xfui-articleitem-area">
+                    <span class="xfui-articleitem-label">区域：</span>
+                    <span class="xfui-articleitem-value">{$plist.homeregion}</span>
+                </div>
+                <div class="xfui-articleitem-price">
+                    <span class="xfui-articleitem-label">租金：</span>
+                    <span class="xfui-articleitem-value">{$plist.price}</span>
+                </div>
+                <div class="xfui-articleitem-type">
+                    <span class="xfui-articleitem-label">房型：</span>
+                    <span class="xfui-articleitem-value">{$plist.hometype}</span>
+                </div>
+            </div>
+          </volist>
+            <div class="clear">
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,200 @@
+[ 2013-04-03T04:49:00+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:49:00+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:49:00+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.021621s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T12:49:00+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002005s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T12:49:00+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.013598s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.008435s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.021300s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002127s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.018626s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:49:01+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.
+[ 2013-04-03T04:49:02+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:49:02+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.004352s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.003381s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.006474s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002622s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005195s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.000885s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.006163s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:49:02+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.
+[ 2013-04-03T04:49:37+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:49:37+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005302s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001456s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.006179s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002061s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.004358s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001239s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.003214s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:49:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.
+[ 2013-04-03T04:49:47+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:49:47+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005282s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001191s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.004522s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002410s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005227s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001816s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005442s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:49:47+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.
+[ 2013-04-03T04:50:10+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:50:10+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005269s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001613s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005599s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002121s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005738s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002116s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.004092s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:50:10+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.
+[ 2013-04-03T04:50:19+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:50:19+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005028s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001516s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005538s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001719s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.005509s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.000513s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002216s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:50:19+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.
+[ 2013-04-03T06:21:28+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:28+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.004526s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001231s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.027115s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001016s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.013275s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.000974s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.015762s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T14:21:28+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.
+[ 2013-04-03T12:38:37+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:37+00:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.009992s SQL = SHOW COLUMNS FROM ts_home_type
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.002126s SQL = SELECT id,name FROM `ts_home_type` WHERE ( `status` = 1 )
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\house\Lib\Action\HomeAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.009809s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.009083s SQL = SELECT * FROM `ts_home_region` WHERE ( `status` = 1 ) ORDER BY id
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.013450s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 90 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 93 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price1 HomeAction.class.php 第 99 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: price2 HomeAction.class.php 第 100 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 101 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square1 HomeAction.class.php 第 117 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: square2 HomeAction.class.php 第 118 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: publish HomeAction.class.php 第 133 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homesize HomeAction.class.php 第 134 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: hometypeid HomeAction.class.php 第 135 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined index: homeregionid HomeAction.class.php 第 136 行.
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.001791s SQL = SELECT COUNT(id) AS tp_count FROM `ts_home` WHERE ( 1=1 ) LIMIT 1 
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | SQL:  RunTime:0.018582s SQL = SELECT * FROM `ts_home` WHERE ( 1=1 ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T20:38:37+08:00 ] /trunk/index.php?app=House&mod=Home&act=index | NOTIC: [8] Undefined variable: type 6ef2e9e9bbd218eefe35cdd1e943883c.php 第 63 行.

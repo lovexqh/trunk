@@ -1,0 +1,57 @@
+[ 2013-02-27T05:49:09+00:00 ] /trunk/ | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T05:49:09+00:00 ] /trunk/ | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined index: wap_to_normal App.class.php 第 126 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined index: wap_to_normal App.class.php 第 126 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.005166s SQL = SHOW COLUMNS FROM ts_layout
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001365s SQL = SELECT * FROM `ts_layout` WHERE ( `type` = 'Index' ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: modify cab85b5ebf3a2fcf1c4bb05929647bf7.php 第 7 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined index: member cab85b5ebf3a2fcf1c4bb05929647bf7.php 第 36 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.007108s SQL = SHOW COLUMNS FROM ts_block
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001826s SQL = SELECT * FROM `ts_block` WHERE ( `name` = 'sidebar' ) AND ( `lid` = '1' ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.006356s SQL = SHOW COLUMNS FROM ts_widget
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001575s SQL = SELECT * FROM `ts_widget` WHERE bid=2
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.005957s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001587s SQL = SELECT * FROM `ts_category` WHERE ( `id` = '76' )
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.004490s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001664s SQL = SELECT * FROM `ts_model` WHERE id=1 LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.004948s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001478s SQL = SELECT * FROM `ts_news` WHERE catid=76 LIMIT 5 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined index: home_history HistoryWidget.class.php 第 4 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001956s SQL = SELECT * FROM `ts_block` WHERE ( `name` = 'content' ) AND ( `lid` = '1' ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001581s SQL = SELECT * FROM `ts_widget` WHERE bid=1
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.006559s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.006620s SQL = SELECT * FROM `ts_home` WHERE ( `status` = 1 ) AND ( `publish` = 1 ) LIMIT 8 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.005475s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001964s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001396s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001250s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.001106s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.000968s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.004149s SQL = SELECT * FROM `ts_home` WHERE ( `status` = 1 ) AND ( `publish` = 1 ) LIMIT 8 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.000937s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.000848s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.000921s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.000803s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | SQL:  RunTime:0.000979s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: blocks cab85b5ebf3a2fcf1c4bb05929647bf7.php 第 159 行.
+[ 2013-02-27T13:49:09+08:00 ] /trunk/ | NOTIC: [8] Undefined variable: modify cab85b5ebf3a2fcf1c4bb05929647bf7.php 第 161 行.

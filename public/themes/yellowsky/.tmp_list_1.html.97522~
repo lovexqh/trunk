@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" href="/Public/css/common.css" rel="stylesheet"/>
+    <link type="text/css" href="/Public/css/layoutlist.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <include file="./Tpl/bluesky/Index/header.html"/>
+    </div>
+    <div id="mainContent">
+        <div class="labelselect edui-tpl-labelselect">
+            <div id="labelselect_show">
+            {:W('Display',array('position'=>"labelselect",'layoutid'=>"$layoutid"))}
+                </div>
+        </div>
+        <div class="list edui-tpl-list">
+            <div id="list_show">
+            {:W('Display',array('position'=>"list",'layoutid'=>"$layoutid"))}
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="news edui-tpl-news d">
+                <div id="news_show">
+                {:W('Display',array('position'=>"news",'layoutid'=>"$layoutid"))}
+                </div>
+            </div>
+            <div class="history edui-tpl-history d">
+                <div id="history_show">
+                {:W('Display',array('position'=>"history",'layoutid'=>"$layoutid"))}
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer" class="edui-tpl-footer">
+        <include file="./Tpl/bluesky/Index/footer.html"/>
+    </div>
+</div>
+<input type="hidden" id="subpath" value="__APP__">
+<input type="hidden" id="layoutid" value="{$layoutid}">
+<eq name="modify" value="1">
+    <script type="text/javascript" src="/Public/js/updateLayout_h.js"></script>
+</eq>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<script type="text/javascript" src="__PUBLIC__/admin/js/admin.js" defer="defer"></script>
+ <link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+ <link rel="stylesheet" href="__PUBLIC__/admin/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+	<p class="xy"><span class="fontw">当前位置：</span>房屋小区管理</p>
+	<p class="addbtn"><a href="__URL__/add/pid/0"><span class="addbtnbg">添加小区</span></a>	<input type="button" onclick="allSelect()" class="searchbut" value="全 选">&nbsp;
+        <input type="button" onclick="InverSelect()" class="searchbut" value="反 选">&nbsp;
+        <input type="button" onclick="allUnSelect()" class="searchbut" value="全 否" >&nbsp;
+        <input type="button" onclick="deleteSelect('__URL__')" class="searchbut" value="删除">&nbsp;</p>
+	  <notempty name="list">
+	<div class="content">
+		<table id="selectstate">
+			<tr class="homeheard"><td width="10%">选择</td><td width="30%">名称</td><td>创建日期</td><td width="25%">操作</td></tr>
+		<volist name="list" id="content" mod="2" >
+		<tr <eq name="mod" value="0">
+	 class="graybg"
+</eq><eq name="mod" value="1"> class="whitebg"</eq> ><td><input type="checkbox" value="{$content.id}" /></td><td style="text-align: left;padding-left: 20px;">{$content.name}</td><td>{$content.createtime|toDate='Y-m-d H#i#s'}</td>
+		<td class="managehometd"><a href="{:U('auth/homeRegion/add',array('pid'=>$content['id']))}"><img src="__PUBLIC__/admin/images/addbtn.gif"/>添加</a> | <a href="{:U('auth/homeRegion/edit',array('id'=>$content['id']))}"><img src="__PUBLIC__/admin/images/updatehome.gif"/>修改</a>
+		 </td></tr>
+		 </volist>
+			<tr class="homeheard mypage"><td colspan="5">&nbsp;</td></tr>
+		</table>
+	</div>
+	</notempty>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

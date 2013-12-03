@@ -1,0 +1,334 @@
+.wrap {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 83px;
+	background: url(../images/logo-x.gif) repeat-x;
+}
+
+.header .logoarea {
+	width: 99%;
+	height: 83px;
+	float: left;
+	background: url(../images/logoban.gif) left no-repeat;
+}
+
+.header .logoarea .logo {
+	width: 264px;
+	height: 66px;
+	margin: 5px 0px 0px 20px;
+	float: left;
+}
+
+.header ul {
+	margin-right: 10px;
+	height: 24px;
+	margin-top: 40px;
+	float: right;
+}
+
+.header ul span {
+	height: 24px;
+	line-height: 36px;
+	float: left;
+	color: white;
+}
+
+.header ul li {
+	width: 64px;
+	height: 23px;
+	margin: 5px 0px 0px 20px;
+	float: left;
+	background: url(../images/btn1.png) no-repeat;
+}
+
+.header ul li a {
+	display: block;
+	width: 50px;
+	height: 16px;
+	padding-left: 24px;
+	margin-top: 3px;
+}
+
+.header ul li a.help {
+	background: url(../images/icon.png) 0px 0px no-repeat;
+	margin-left: 6px;
+}
+
+.header ul li a.close {
+	background: url(../images/icon.png) 0px -16px no-repeat;
+	margin-left: 6px;
+}
+
+.container {
+	width: 100%;
+	margin-top: 4px;
+}
+
+.left {
+	width: 169px;
+	height: 760px;
+	margin-top: 2px;
+	border-right: #4385C2 solid 1px;
+	position: absolute;
+	background: #C1D6E4 url(../images/fun_list.gif) no-repeat top;
+	left: 0;
+	z-index: 9;
+}
+
+.left ul {
+	width: 163px;
+	margin: 42px 0px 0px 0px;
+	padding-left: 6px;
+}
+
+.left ul li a {
+	display: block;
+	width: 163px;
+	height: 29px;
+	line-height: 29px;
+	text-indent: 30px;
+	color: #0C31A2;
+	font-size: 14px;
+	margin-top: 4px;
+	background: url(../images/m_li.gif) no-repeat;
+	cursor: pointer;
+}
+
+.left ul li a:hover {
+	cursor: pointer;
+}
+
+.left ul li a.arr {
+	width: 164px;
+	background: url(../images/m_li_arr.gif) no-repeat;
+	cursor: default;
+}
+
+.right {
+	width: 100%;
+	position: absolute;
+	left: -1px;
+}
+
+.content {
+	margin-left: 169px;
+	background: url(../images/c_x.gif) repeat-x top;
+}
+
+.fun_area {
+	border: #4385C2 solid 1px;
+	margin: 0px 10px;
+	height: 679px;
+}
+
+h1.search_box {
+	height: 28px;
+	line-height: 28px;
+	margin-top: 8px;
+	padding-left: 20px;
+	font-weight: 100;
+	background: url(../images/h_x.gif) repeat-x;
+}
+
+.search_box label {
+	float: left;
+	line-height: 25px;
+	padding: 0 16px;
+}
+
+.search_box select.x_sec {
+	float: left;
+	width: 100px;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 6px;
+}
+
+.search_box span {
+	display: block;
+	float: left;
+	width: 193px;
+	height: 22px;
+	background: url(../images/inputbg.gif) no-repeat;
+}
+
+.search_box a {
+	display: block;
+	float: left;
+	height: 20px;
+	margin-left: 10px;
+	padding: 0 10px;
+	line-height: 20px;
+	color: #0C31A2;
+	border: #4385C2 solid 1px;
+}
+
+.search_box a.sc_btn {
+	background: url(../images/btn_xb1.gif) repeat-x;
+	color: #385E8B;
+}
+
+h2 {
+	height: 36px;
+	line-height: 36px;
+	font-weight: 100;
+}
+
+h2.condition span {
+	display: block;
+	width: 300px;
+	height: 36px;
+	text-indent: 40px;
+	line-height: 36px;
+	float: left;
+}
+
+h2.condition select.x_sec {
+	float: right;
+	width: 80px;
+	height: 22px;
+	line-height: 22px;
+	margin: 7px 6px;
+}
+
+h2.condition a.sc_btn {
+	display: block;
+	float: right;
+	height: 20px;
+	margin: 8px 0px 0px 10px;
+	padding: 0 10px;
+	line-height: 20px;
+	color: #0C31A2;
+	border: #4385C2 solid 1px;
+	background: url(../images/btn_xb1.gif) repeat-x;
+	color: #385E8B;
+}
+
+ul.row {
+	height: 24px;
+	padding-top: 10px;
+	margin-left: 20px;
+}
+
+ul.row li {
+	float: left;
+}
+
+ul.row li a {
+	display: block;
+	width: 110px;
+	height: 24px;
+	margin-left: 4px;
+	line-height: 24px;
+	text-align: center;
+	background: url(../images/c_li.gif) repeat-x 1px;
+	float: left;
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+ul.row li a.curr {
+	position: relative;
+	top: 1px;
+	width: 111px;
+	height: 24px;
+	margin-left: 4px;
+	background: url(../images/c_li_curr.gif) repeat-x;
+	float: left;
+	color: #0C31A2;
+	cursor: default;
+}
+
+.fun_area .tree_box {
+	margin: 8px 0px 0px 8px;
+	width: 222px;
+	height: 663px;
+	position: absolute;
+	z-index: 4;
+	padding: 1px;
+	border: #94AED0 solid 1px;
+	left: 175px;
+}
+
+.fun_area .tree_box h1 {
+	width: 202px;
+	width: 222px\9;
+	padding-left: 20px;
+	height: 26px;
+	line-height: 26px;
+	font-weight: 100;
+	color: #385E8B;
+	background: url(../images/tree_top.gif) repeat-x;
+	clear: both;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+
+.fun_area .tree_box .tree {
+	width: 222px;
+	height: 461px;
+	overflow: auto;
+}
+
+.fun_area .tree_box .tree ul li.current {
+	background: #C1D6E4 url(../images/tree_icon.gif) no-repeat 10px;
+}
+
+.fun_area .tree_box .tree ul li {
+	padding-left: 30px;
+	width: 222px;
+	height: 24px;
+	line-height: 24px;
+	background: black;
+	margin-top: 4px;
+	background: url(../images/tree_icon.gif) no-repeat 10px;
+}
+
+.fun_area .tree_box .tree ul li {
+	line-height: 24px;
+}
+
+.tabarea {
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	top: 140px;
+}
+
+.tabpadding {
+	width: 420px;
+	position: absolute;
+}
+
+.con_area {
+	margin-left: 190px;
+	margin-right: 16px;
+}
+
+.foot {
+	padding-left: 130px;
+	height: 36px;
+	line-height: 36px;
+	margin: 10px;
+	text-indent: 40px;
+	color: #666;
+	background: url(../images/f_x.gif) repeat-x;
+}
+
+.foot span {
+	float: left;
+}
+
+.foot a {
+	float: right;
+	padding: 0 10px;
+	color: #385E8B;
+	text-decoration: underline;
+}

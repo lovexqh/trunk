@@ -1,0 +1,46 @@
+<script type="text/javascript">
+    window.UEDITOR_HOME_URL = "__PUBLIC__/ueditor_1_2_0/";
+</script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor_1_2_0/editor_config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor_1_2_0/editor_all_min.js"></script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/ueditor_1_2_0/themes/default/ueditor.css"/>
+<form action="__APP__/content/insert" method="post"
+	enctype="multipart/form-data">
+<table width="99%" border="0" align="center" cellpadding="3" cellspacing="1" class="table_style">
+    <tr>
+    <input type="hidden" name="id" id="id" value='{$vo.id}'>
+    <input type="hidden" name="catid" value='{$catid}'>
+      <input type="hidden" name="type"  value='{$type}'>
+        <td width="18%" class="left_title_1"><span class="left-title">标题：</span></td>
+        <td width="82%"><input maxlength="40" type="text" name="title" id="bname" value='{$vo.title}'></td>
+    </tr>
+    <tr>
+        <td class="left_title_2">关键字：</td>
+        <td><input type="text" maxlength="20" name="keywords" id="bcity"  value="{$vo.keywords}"></td>
+    </tr>
+    <tr>
+        <td class="left_title_2">缩放图：</td>
+               <td><input  type="file" name="thumb" id="bimg" value="{$vo.thumb}">预览：<img src="__PUBLIC__/Uploads/s_{{$vo.thumb}}"></td>
+    </tr>
+    <tr>
+        <td class="left_title_2">介绍：</td>
+        <td>
+        <textarea id="description"  name="description">{$vo.description}
+        </textarea>
+        </td>
+    </tr>
+    <tr>
+        <td class="left_title_1"><input type="submit" value="提交"></td>
+        <td><input type="reset" value="取消"></td>
+    </tr>
+</table>
+</form>
+<script type="text/javascript">
+    var ue = new baidu.editor.ui.Editor({
+        textarea:"description"
+    });
+        ue.render('description');
+</script>
+
+
+

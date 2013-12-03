@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+    <p class="xy"><span class="fontw">当前位置：</span>房屋管理 > 查看房屋查看历史</p>
+
+    <div class="content">
+        <form action="{:U('house/HomeHistory/index')}" method="post" >
+            <table class="myaddhome">
+                <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">业务员姓名：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                      {$vo.username}
+                    </td>
+                </tr>
+              <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">创建时间：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                        {$vo.createtime|toDate='Y-m-d H#i#s'}
+                    </td>
+                </tr>
+
+                <tr class="graybg" height="165px">
+                    <td class="textr" width="10%">
+                        <span class="fontw">备注：</span>
+                    </td>
+                    <td class="textl" colspan="7">
+                      {$vo.remark}
+                    </td>
+<input type="hidden" name="homeid" value="{$vo.homeid}"/>
+                </tr>
+                <tr class="whitebg">
+                    <td class="textc btnbg" colspan="8">
+                        <input type="submit" value="返 回"/>
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

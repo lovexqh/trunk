@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link type="text/css" href="/Public/css/footer.css" rel="stylesheet" />
+</head>
+<body>
+	
+	<div class="footbgline"></div>
+<p class="footer">
+    <a href="http://www.soufun.com/hezuo_file/house/index.html" target="_blank">网站合作</a>‖
+    <a href="http://www.soufun.com/aboutus/contactus.html" target="_blank">联系我们</a>‖
+    <a href="http://www.soufun.com/aboutus/marketing/index.html" target="_blank" >网络营销</a>‖
+    <a href="http://www.soufun.com/zhaopin" target="_blank" >招聘信息</a>‖
+    <a href="http://www.soufun.com/sitemap/sitemap.html" target="_blank" >网站地图</a>
+</p>
+</body>
+</html>

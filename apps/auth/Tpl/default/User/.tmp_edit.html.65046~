@@ -1,0 +1,111 @@
+<include file="Public:header" />
+<div id="main" class="main" >
+<script language="JavaScript">
+<!--
+function resetPwd(){
+var pass	 =	 $F('resetPwd');
+ThinkAjax.send('__URL__/resetPwd/','ajax=1&id={$vo.id}&password='+encodeURIComponent(pass));
+}
+//-->
+</script>
+<load href ="__PUBLIC__/Js/common.js" />
+<div id="main" class="main" >
+<script language="JavaScript">
+<!--
+function checkName(){
+	ThinkAjax.send('__URL__/checkAccount/','ajax=1&account='+$F('account'));
+}
+//-->
+</script>
+<link rel="stylesheet" href="__PUBLIC__/css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+    <p class="xy"><span class="fontw">当前位置：</span>用户管理>修改用户</p>
+
+    <div class="content">
+       
+            <table class="myaddhome">
+         <!--    	  <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">重置密码：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+						<input type="text" class="medium bLeft myinput" name="resetPwd" > <INPUT type="button" value="重置密码" onclick="resetPwd()" class="mybutton" style="height:25px"/>
+                    </td>
+                </tr> -->
+				 <form action="__URL__/update" method="post" enctype="multipart/form-data">
+                <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">用户名：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                    	<input type="text" class="myinput medium bLeftRequire"  check='Require' warning="用户名不能为空" id="account" name="account" value="{$vo.account}">
+                    </td>
+                </tr>
+            
+              
+                <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">真实姓名：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                    	<input type="text" class="myinput medium bLeftRequire"  check='Require' warning="用户名不能为空" id="realname" name="realname" value="{$vo.realname}">
+                    </td>
+                </tr>
+                <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">缩略图：</span><img src="/Tpl/Uploads/s_{$vo.avatar}"/>
+                    </td>
+                    <td class="textl"  colspan="7">
+			<input  type="file" name="avatar" id="avatar"></td>
+                </tr>
+                <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">电话：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                    	<input type="text" class="myinput medium bLeftRequire"  name="telephone" value="{$vo.telephone}">
+                    </td>
+                </tr>
+            
+              <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">状态：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+				<SELECT class="small bLeft"  name="status">
+	<option <eq name="vo.status" value="1" >selected</eq> value="1">启用</option>
+	<option <eq name="vo.status" value="0" >selected</eq> value="0">禁用</option>
+	</SELECT></td>
+                </tr>
+					<tr class="whitebg">
+                    <td class="textr"><span class="fontw">选择角色：</span></td>
+                    <td class="textl" colspan="3" id="myconfig">
+                        <volist name="roles" id="role">
+                            <input type="checkbox"  value="{$role.id}" name="roleIds[]" <volist name="roleuser" id="rs"><if condition="$role.id eq $rs.role_id ">checked</if></volist>/> {$role.name}&nbsp;
+                        </volist>
+                    </td>
+                    </tr>
+                <tr class="whitebg" height="165px">
+                    <td class="textr" width="10%">
+                        <span class="fontw">备注：</span>
+                    </td>
+                    <td class="textl" colspan="7">
+                        <textarea cols="82" rows="10" id="remark" name="remark">{$vo.remark}</textarea>
+                    </td>
+
+                </tr>
+                <tr class="graybg">
+                    <td class="textc btnbg" colspan="8">
+                        <input type="submit" value="提 交"/>
+                        <input type="reset" value="重 置"/>
+                        <input type="button" value="返 回"/>
+
+                    </td>
+                </tr>
+            </table>
+			<input type="hidden" name="id" value="{$vo.id}" >
+	<input type="hidden" name="ajax" value="1">
+        </form>
+    </div>
+</div>

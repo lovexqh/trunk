@@ -1,0 +1,16 @@
+/*base*/
+.xfui-button-body{
+    width:250px;
+    height:60px;
+}
+.xfui-for-btn1 .xfui-button-body{
+    width:250px;
+    height:60px;
+    background-position: -3px -94px;
+}
+.xfui-for-btn1  .xfui-button-body{
+    background-image:url(../images/001.png);
+}
+.xfui-for-btn1  .xfui-state-hover .xfui-button-body{
+    background-image:url(../images/002.png);
+}

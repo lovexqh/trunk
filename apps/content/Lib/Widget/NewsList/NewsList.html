@@ -1,0 +1,32 @@
+<div class="content">
+    <div class="contentdetail">
+        <div class="detailnav">
+            <ul class="myul cotentul">
+                <li class="floatleft tabred t14w">
+                    动态新闻
+                </li>
+            </ul>
+            <div class="bgtab">
+            </div>
+        </div>
+        <div class="myblod padding20 mynewslist">
+            <p>
+                <span class="paddingleft165 fontblod">标题</span>
+                <span class="paddingleft300 fontblod">时间</span>
+            </p>
+            <ul>
+                <volist name="contentList" id="content">
+                    <li>
+                        <span class="width550 floatleft"><a href="{$content.url}">{$content.title}</a></span>
+                        <span class="width170 floatleft">{$content.createtime|toDate}</span>
+                    </li>
+                </volist>
+            </ul>
+            <div class="clear">
+            </div>
+            <p class="newslistpage">
+                <span>{$page}</span>
+            </p>
+        </div>
+    </div>
+</div>

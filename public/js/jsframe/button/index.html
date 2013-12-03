@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/btn.css" type="text/css"/>
+    <script type="text/javascript" src="btn_api.js"></script>
+</head>
+<body>
+<div id="btn1"></div>
+<script type="text/javascript">
+    (function(container){
+        var uibtn = new XF.ui.Button({
+                id : container,
+                className : 'xfui-for-'+container,
+                title : container,
+                label : container,
+                onclick : function(){
+                    alert(this.label)
+                }
+            });
+            uibtn.render();
+    })("btn1");
+
+</script>
+</body>
+</html>

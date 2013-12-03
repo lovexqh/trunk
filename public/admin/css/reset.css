@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS 基本样式 */
+
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select,ul, button, textarea, iframe, table, th, td { margin: 0; padding: 0; }
+
+img { border: 0 none; vertical-align:top; }
+
+ul, li { list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6 {font-size:12px;}
+
+body, input, select, button, textarea {font-size: 12px; font-family: Tahoma, Geneva, sans-serif;}
+
+button {cursor: pointer;}
+
+body { background:#fff;color:#333; line-height: 1.2; }
+
+a, a:link { color: #222; text-decoration: none; }
+
+a:visited { }
+
+a:active, a:hover { text-decoration: none; }
+
+a:focus { outline: none; }
+
+.fixed:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+
+.fixed { display: block; min-height: 1%; }
+
+*html .fixed { height: 1%; }
+.clear {diplay: block!important; float: none!important; clear: both; overflow: hidden; width: auto!important; height: 0!important; margin: 0 auto!important; padding: 0!important; font-size: 0; line-height: 0; }
+.fl, .fr {display: inline; float: left; }
+.fr {float: right; }
+.txl{text-align:left;}
+.txr{text-align:right;color: #333;font-family: Tahoma, Geneva, sans-serif;}
+.tz{ text-align:center;}
+table {border-collapse:separate;border-spacing:0;/*border-top:#c7e1f5 solid 1px; border-left:#c7e1f5 solid 1px;*/}
+table,th,td {vertical-align:middle;}
+th,td{ height:26px;line-height:26px; text-align:center; /*border-bottom:#c7e1f5 solid 1px; border-right:#c7e1f5 solid 1px;*/}
+th{ background:#f3faff;}
+.bord0{border:0 none;}
+.border{border:1px solid #d3d3d3;}
+.mid{matgin:0 auto; text-align:center;}
+.lock{ display:block;}
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus,select:focus { border: 1px solid #ccc;}
+/*---字体样式---*/
+.white{color:#FFF}
+.weight{ font-weight:bold;}
+.gary{color:#999;}
+.green{color:#090;}
+.orange{color:#f6b034}
+.lightgary{color:#ccc;}
+.blue{color:#0776ac;}
+.big{font-size:16px;}
+.small{font-size:12px;}
+.red{color:#F00;}
+/*---边距样式---*/
+.pad-2{padding:2px;}
+.pad-4{padding:4px;}
+.pad-6{padding:6px;}
+.pad-8{padding:8px;}
+.pad-15{padding:15px;}
+.pad-30{padding:30px;}
+.padt-4{padding-top:4px;}
+.padl-8{padding-left:8px;}
+.padl-200{padding-left:150px;}
+.padlr-4{padding:0 4px;}
+.padlr-8{padding:0 8px;}
+.padr-30{padding-right:180px;}
+
+.mar{margin:8px;}
+.mart-4{margin-top:4px;}
+.mart-8{margin-top:8px;}
+.mart-10{margin-top:10px;}
+.mart-12{margin-top:12px;}
+.mart-4{margin-top:4px;}
+.marlr{margin:0 24px;}
+.marl-8{margin-left:8px;}
+.marl-24{margin-left:24px;}
+
+/*---边框样式---*/
+.dash_gray{border-bottom:#CCC dashed 1px;}
+.dash_yellow{border-bottom:#36F dashed 1px;}
+.solidb{border-bottom:#d3d3d3 solid 1px;}
+.solidt{border-top:#d3d3d3 solid 1px;}

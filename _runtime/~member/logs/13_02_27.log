@@ -1,0 +1,115 @@
+[ 2013-02-27T07:16:23+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:16:23+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.003808s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.001417s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 21 行.
+[ 2013-02-27T15:16:23+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 33 行.
+[ 2013-02-27T07:19:45+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:19:45+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.004129s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.000827s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:19:45+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:19:49+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:19:49+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:19:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.004676s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:19:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.001183s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:19:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:19:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:20:07+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:20:07+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.004856s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.001530s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:20:07+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:20:10+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 16 行.
+[ 2013-02-27T07:20:10+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:20:10+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.003748s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:20:10+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.001637s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:20:10+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:20:10+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:20:11+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:20:11+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:20:11+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.003879s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:20:11+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.001258s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:20:11+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:20:11+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:20:14+00:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:20:14+00:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:20:14+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Array to string conversion ThinkException.class.php 第 81 行.
+[ 2013-02-27T15:20:14+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Array to string conversion ThinkException.class.php 第 81 行.
+[ 2013-02-27T15:20:14+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined index: file ThinkException.class.php 第 79 行.
+[ 2013-02-27T15:20:14+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined index: line ThinkException.class.php 第 79 行.
+[ 2013-02-27T15:20:14+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined index: class ThinkException.class.php 第 80 行.
+[ 2013-02-27T15:20:14+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined index: type ThinkException.class.php 第 80 行.
+[ 2013-02-27T15:20:14+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Array to string conversion ThinkException.class.php 第 81 行.
+[ 2013-02-27T07:20:49+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:20:49+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.006047s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.000622s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:20:49+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:21:08+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:21:08+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:21:08+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.003624s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:21:08+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.001157s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:21:08+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:21:08+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:22:13+00:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:22:13+00:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:22:13+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:22:13+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:22:13+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined variable: vo 199f8f78002dcfcb8931f52b4d262c75.php 第 17 行.
+[ 2013-02-27T15:22:13+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined variable: vo 199f8f78002dcfcb8931f52b4d262c75.php 第 27 行.
+[ 2013-02-27T15:22:13+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined variable: vo 199f8f78002dcfcb8931f52b4d262c75.php 第 39 行.
+[ 2013-02-27T07:22:18+00:00 ] /trunk/index.php?app=member&mod=Member&act=saveOrUpdate | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:22:18+00:00 ] /trunk/index.php?app=member&mod=Member&act=saveOrUpdate | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:22:18+08:00 ] /trunk/index.php?app=member&mod=Member&act=saveOrUpdate | SQL:  RunTime:0.004040s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:22:18+08:00 ] /trunk/index.php?app=member&mod=Member&act=saveOrUpdate | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:22:18+08:00 ] /trunk/index.php?app=member&mod=Member&act=saveOrUpdate | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:22:18+08:00 ] /trunk/index.php?app=member&mod=Member&act=saveOrUpdate | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-27T07:23:02+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:23:02+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:23:02+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.006255s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:23:02+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.002303s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:23:02+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:23:02+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:23:04+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:23:04+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:23:04+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.004533s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:23:04+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.003910s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:23:04+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:23:04+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:23:05+00:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:23:05+00:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:23:05+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined variable: vo 199f8f78002dcfcb8931f52b4d262c75.php 第 17 行.
+[ 2013-02-27T15:23:05+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined variable: vo 199f8f78002dcfcb8931f52b4d262c75.php 第 27 行.
+[ 2013-02-27T15:23:05+08:00 ] /trunk/index.php?app=member&mod=Member&act=add | NOTIC: [8] Undefined variable: vo 199f8f78002dcfcb8931f52b4d262c75.php 第 39 行.
+[ 2013-02-27T07:24:16+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:16+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:16+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.003622s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:24:16+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.001207s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:24:16+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:24:16+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.
+[ 2013-02-27T07:56:30+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:56:30+00:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:56:30+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.004530s SQL = SHOW COLUMNS FROM ts_member
+[ 2013-02-27T15:56:30+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | SQL:  RunTime:0.000763s SQL = SELECT COUNT(id) AS tp_count FROM `ts_member` LIMIT 1 
+[ 2013-02-27T15:56:30+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: list 27e93efa9cc9d68081dcbff867a0ac25.php 第 17 行.
+[ 2013-02-27T15:56:30+08:00 ] /trunk/index.php?app=Member&mod=Member&act=index | NOTIC: [8] Undefined variable: page 27e93efa9cc9d68081dcbff867a0ac25.php 第 29 行.

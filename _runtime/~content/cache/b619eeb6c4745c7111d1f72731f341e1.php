@@ -1,0 +1,83 @@
+<?php if (!defined('THINK_PATH')) exit();?><script src="__PUBLIC__/js/validation/livevalidation.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor_1_2_0/editor_config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor_1_2_0/editor_all_min.js"></script>
+<link rel="stylesheet" href="__PUBLIC__/js/validation/consolidated_common.css" type="text/css"/>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/ueditor_1_2_0/themes/default/ueditor.css"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+    <p class="xy"><span class="fontw">当前位置：</span>内容管理 > 编辑文章</p>
+
+    <div class="content">
+        <form action="<?php echo U('content/content/saveOrUpdate');?>" method="post" enctype="multipart/form-data" >
+            <table class="myaddhome">
+                <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">标题：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                   <input maxlength="40" type="text" name="title" id="f1" class="width300" value='<?php echo ($vo["title"]); ?>'>
+                    </td>
+                </tr>
+                <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw" >关键字：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+<input type="text" maxlength="20" name="keywords" id="bcity" class="width300"  value="<?php echo ($vo["keywords"]); ?>">                    </td>
+                </tr>
+                <tr class="graybg" height="100px;">
+                    <td class="textr" width="10%">
+                        <span class="fontw">缩放图：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                    	<input name="id" value="<?php echo ($vo["id"]); ?>" type="hidden"/>
+                    	<input name="type" value="<?php echo ($type); ?>" type="hidden"/>
+                    	<input name="catid" value="<?php echo ($catid); ?>" type="hidden"/>
+<input  type="file" name="thumb" id="bimg" value="<?php echo ($vo["thumb"]); ?>">预览：
+               <img src="/Tpl/Uploads/s_<?php echo ($vo["thumb"]); ?>" id="error" onerror="this.src='__PUBLIC__/admin/images/nopic.png'" /> 
+<img src="__PUBLIC__/admin/images/nopic.png" id="warn" style="display: none;"  width="90" height="90"/>                    </td>
+                </tr>
+                <tr class="whitebg" height="165px">
+                    <td class="textr" width="10%">
+                        <span class="fontw">介绍：</span>
+                    </td>
+                    <td class="textl" colspan="7">
+                            <textarea id="description"  name="description"><?php echo ($vo["description"]); ?></textarea>
+                    </td>
+
+                </tr>
+                <tr class="graybg">
+                    <td class="textc btnbg" colspan="8">
+                        <input type="submit" value="提 交"/>
+                        <input type="button" value="返 回"/>
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+    var ue = new baidu.editor.ui.Editor({
+        textarea:"description"
+    });
+        ue.render('description');
+</script>
+  <script type="text/javascript">
+		            var f1 = new LiveValidation('f1', {onlyOnSubmit: true ,validMessage: " "});
+		            f1.add(Validate.Presence, {failureMessage: "不能为空!"});
+					
+					  var f2 = new LiveValidation('description',{onlyOnSubmit: true  ,validMessage: " "} );
+		            f2.add(Validate.Length, { maximum: 100 } );
+					
+					  var automaticOnSubmit = f1.form.onsubmit;
+          f1.form.onsubmit = function(){
+	          var valid = automaticOnSubmit();
+	          if(valid){return true;}
+            return false;
+          }
+		          </script>  
+<script type="text/javascript">
+    window.UEDITOR_HOME_URL = "__PUBLIC__/ueditor_1_2_0/";
+</script>

@@ -1,0 +1,32 @@
+div.btn{float: right;width:50px;height:20px;border: 1px solid red;position: relative;right: 0;top:0;}
+
+/* common layer */
+div.xfui-box { position: relative; display: -moz-inline-box!important; display: inline-block!important; vertical-align: top;  }
+
+.xfui-dialog-modalmask, .xfui-dialog-dragmask { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+/* dialog */
+.xfui-dialog {z-index: 2000;position: absolute;}
+.xfui-dialog-wrap {margin-right: 6px;margin-bottom: 6px;border: 1px solid #c6c6c6;}
+.xfui-dialog-body {position: relative;background-color: white;_zoom: 1;}
+.xfui-dialog-shadow {position: absolute;z-index: -1;left: 0;top: 0;width: 100%;height: 100%;background-color: black;box-shadow: 3px 3px 5px #818181;-webkit-box-shadow: 3px 3px 5px #818181;-moz-box-shadow: 3px 3px 5px #818181;-ms-filter: 'progid:DXImageTransform.Microsoft.Blur(PixelRadius='3', MakeShadow='true', ShadowOpacity='0.5')';filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='3', MakeShadow='true', ShadowOpacity='0.5');}
+.xfui-dialog-foot {background-color: white;}
+.xfui-dialog-titlebar {height: 26px;border-bottom: 1px solid #c6c6c6;background: url("/Public/jsframe/images/dialog-title-bg.png") repeat-x bottom;position: relative;cursor: move;}
+.xfui-dialog-caption {font-weight: bold;font-size: 12px;line-height: 26px;padding-left: 5px;}
+.xfui-dialog-draghandle {height: 26px;}
+.xfui-dialog-closebutton {position: absolute !important;right: 5px;top: 3px;}
+.xfui-dialog-closebutton .xfui-button-body {height: 20px;width: 20px;cursor: pointer;background: url("/Public/jsframe/images/icons-all.gif") no-repeat 0 -59px;}
+.xfui-dialog-closebutton .xfui-state-hover .edui-button-body {background: url("/Public/jsframe/images/icons-all.gif") no-repeat 0 -89px;}
+.xfui-dialog-foot {height: 40px;}
+.xfui-dialog-buttons {position: absolute;right: 0;}
+.xfui-dialog-buttons .xfui-button {margin-right: 10px;}
+.xfui-dialog-buttons .xfui-button .xfui-button-body {background: url("/Public/jsframe/images/icons-all.gif") no-repeat;height: 24px;width: 96px;font-size: 12px;line-height: 24px;text-align: center;cursor: default;}
+.xfui-dialog-buttons .xfui-button .xfui-state-hover .xfui-button-body {background: url("/Public/jsframe/images/icons-all.gif") no-repeat 0 -30px;}
+.xfui-dialog iframe {border: 0;padding: 0;margin: 0;vertical-align: top;}
+.xfui-dialog-modalmask {opacity: 0.3;filter: alpha(opacity=30);background-color: #ccc;position: absolute;}
+.xfui-dialog-dragmask {position: absolute;background-color: transparent;cursor: move;}
+.xfui-dialog-content  {position: relative;}
+.dialogcontmask{cursor:move;visibility:hidden;display:block;position:absolute;width:100%;height:100%;opacity:0;filter:alpha(opacity=0);}
+.xfui-dialog-buttons .xfui-label{line-height: 24px;}
+.xfui-dialog-content  {width:420px;height:200px;overflow: hidden;}
+.xfui-popmask{position: absolute;background: white;opacity: 0.3;filter: alpha(opacity=30);background: red;color:white;text-align: center}
+.xfui-popmask span{display: inline-block;margin-right: 10px;cursor: pointer;}

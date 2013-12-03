@@ -1,0 +1,18 @@
+<?php if (!defined('THINK_PATH')) exit();?><div id="loginWindow">
+    <dl class="login1">
+        <dd class="icon_sale">
+            <a target="_blank" href="__APP__/Home/HomeIndex/sellHouse" id="esf_B03_32">我要卖房</a>
+        </dd>
+        <dd class="icon_buy">
+            <a target="_blank" href="__APP__/Home/HomeIndex/sellHouse" id="esf_B03_33">我要买房</a>
+        </dd>
+        <dd class="icon_sale">
+            <a target="_blank" href="__APP__/Home/HomeIndex/rentHouse" id="esf_B03_34">我要出租</a>
+        </dd>
+        <dd class="icon_buy">
+            <a target="_blank" href="__APP__/Home/HomeIndex/sellHouse" id="esf_B03_35">我要求租</a>
+        </dd>
+        <dt class="clear">
+        </dt>
+    </dl>
+</div>

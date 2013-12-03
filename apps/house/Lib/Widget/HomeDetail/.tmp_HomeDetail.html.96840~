@@ -1,0 +1,93 @@
+<div class="content">
+    <div class="contentimg myblod">
+        <div style="font-weight: 800; font-size: 16px; margin-top: -7px;">
+            {$home.title}
+        </div>
+        <div class="floatleft">
+            <img src="" id="datu" class="showimage myblod" />
+            <div>
+                <div style="display: inline-block; float: left; padding: 12px 0;">
+                    <img src="/Public/images/picleft.png" onclick="pre()" border="0" width="24" style=""/>
+                </div>
+                <div id="xiaotu" class="xiaotu" style="display: inline-block; float: left;">
+                </div>
+                <div style="display: inline-block; padding: 12px 0;">
+                    <img src="/Public/images/picright.png" onclick="next()" border="0" width="24" style="" style=" vertical-align:middle;"/>
+                </div>
+            </div>
+        </div>
+        <div class="floatleft margin46">
+            <ul class="detailul">
+                <li>
+                    租金：{$home.price}元/月
+                </li>
+                <li>
+                    房型：{$home.homesize}室{$home.parlour}厅{$home.toilet}卫
+                </li>
+                <li class="telphone">
+                    {$user.telephone}
+                </li>
+                <li>
+                    小区：{$region.name}
+                </li>
+                <li>
+                    地址：{$home.address}
+                </li>
+                <li>
+                    装修：普通装修 楼层：{$home.myhigh}层
+                </li>
+                <li>
+                    朝向：{$home.face}
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="contentdetail">
+        <div class="detailnav">
+            <ul class="myul cotentul">
+                <li class="floatleft tabred t14w">
+                    房源介绍
+                </li>
+                <li class="floatleft tabgary">
+                    <a href="#fwtp" style="color: black;">房源图片</a>
+                </li>
+                <li class="floatleft tabgary">
+                    <a href="#dlwz" style="color: black;">地理位置</a>
+                </li>
+                <li class="floatleft tabgary">
+                    <a href="#xqjs" style="color: black;">小区介绍</a>
+                </li>
+            </ul>
+            <div class="bgtab">
+            </div>
+        </div>
+        <div class="myblod padding20">
+            <p>
+                {$home.description}
+            </p>
+            <div class="showimgbg t14w">
+                房屋图片<a href="#" name="fwtp" class="title12w margin500">返回顶部<img src="/Public/images/back.png" style="margin-bottom: -3px;"/></a>{$home.thumb}
+            </div>
+            <div style="text-align: center;">
+                <volist name="thumbs" id="thumb">
+                    <img src="{$thumb}" class="largeimg myblod" />
+                    <br>
+                </volist>
+            </div>
+            <input id="location" type="hidden" value="{$home.map}" />
+            <div class="showimgbg t14w">
+                地理位置<a href="#" name="dlwz" class="title12w margin500">返回顶部</a>
+                <img src="/Public/images/back.png" style="margin-bottom: -3px;"/>
+            </div>
+            <div id="mapcontainer">
+            </div>
+            <div class="showimgbg t14w">
+                小区介绍<a href="#" name="xqjs" class="title12w margin500">返回顶部</a>
+                <img src="/Public/images/back.png" style="margin-bottom: -3px;"/>
+            </div>
+            <p>
+                {$home.village}
+            </p>
+        </div>
+    </div>
+</div>

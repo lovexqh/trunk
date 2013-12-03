@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title></title>
+        <link type="text/css" href="/Public/widget/LabelSelect/css/labelselect.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="xfui-lselect" class="xfui-box xfui-lselect ">
+            <div id="xfui-lselect_img" class="xfui-box xfui-lselect-img">
+                <img src="/Public/images/labelsearch.png">
+            </div>
+            <div id="label_condition" class="xfui-box xfui-lselect-condition">
+            	<volist id="vo" name="labels">
+                <dl class="xfui-lselect-item">
+                    <dt class="xfui-lselect-label">
+                       {$vo.label}
+                    </dt>
+                    <dd id="label_{$vo.key}" class="xfui-lselect-content" key="{$vo.key}">
+	                        <volist id="bean" name="vo.values" key="k" >
+                                <if condition="$k eq 1">
+                                    <span class="b" onclick="labelClick(event);" vid="{$bean.value}">{$bean.title}</span>
+                                <else/>
+                                    <span onclick="labelClick(event);" vid="{$bean.value}">{$bean.title}</span>
+                                </if>
+                            </volist>
+                    </dd>
+                </dl>
+            </volist>
+           
+            </div>
+            <div id="xfui-lselect-show" class="xfui-box xfui-lselect-show">
+                <div id="label_choosed" class="xfui-box xfui-lselect-choosed">
+                    <h3 class="xfui-lselect-label">已选条件：</h3>
+                </div>
+                <div class="xfui-box xfui-lselect-search" onclick="labelsearch()">
+                </div>
+            </div>
+        </div>
+
+    <script type="text/javascript">
+        function clearClass(node){
+            var child = node&&node.children;
+            for(var i=0,c;c=child[i++];){
+                domUtils.removeClasses(c,["b"]);
+            }
+        }
+        function getCondition(){
+            var container = document.getElementById("label_condition"),
+                items = domUtils.getElementsByTagName(container,"dl"),
+                currentData=[];
+            for(var i=0,item;item=items[i++];){
+                var cont = item.lastChild.nodeType==1?item.lastChild:item.lastChild.previousSibling,
+                        first = cont&&cont.firstChild;
+                while(first){
+                    if(first.nodeType==1&&domUtils.hasClass(first,"b")){
+                        currentData.push({"key":cont.getAttribute("key"),"value":first.getAttribute("vid"),"label":first.innerHTML});
+                        break;
+                    }
+                    first = first.nextSibling;
+                }
+            }
+            return currentData;
+        }
+        function showLabel(){
+            var labeltitle='<h3 class="xfui-lselect-label">已选条件：</h3>';
+            var currentData = getCondition();
+            var str = "";
+            for(var i=0,cd;cd = currentData[i++];){
+                if(cd.value!="-1"){
+                    str += cd.value!="-1"?'<a class="label-item" value="'+cd.value+'">'+cd.label+'<b  onclick="dellabel(this);" key="'+cd.key+'"></b></a>':"";
+                }
+            }
+            document.getElementById("label_choosed").innerHTML =labeltitle+str;
+        }
+        function labelClick(evt){
+            var evt = evt||event,
+                    el = evt.srcElement||evt.target;
+            el&&clearClass(el.parentNode);
+            domUtils.addClass(el,"b");
+            showLabel();
+        }
+        function labelsearch(){
+            var currentData = getCondition();
+           var str=[];
+           for(var i=0,obj;obj=currentData[i++];){
+               if(obj.value == -1){
+                   continue;
+               }
+               switch(obj.key){
+                   case "area":
+                       str.push("homeregionid2="+obj.value);
+                       break;
+                   case "type":
+                       str.push("hometypeid="+obj.value);
+                       break;
+                   case "mode":
+                       str.push("homesize="+obj.value);
+                       break;
+                   case "price":
+                           var label = obj.label,
+                           labellist = label.split("-");
+                           str.push("price1="+labellist[0].match(/\d+/ig)+"&price2="+(labellist[1]?labellist[1]:""));
+                       break;
+               }
+           }
+           location.href = "{$search}"+(str.length?"&"+str.join("&"):"");
+        }
+        function initLable(){
+            var str = location.href,
+                    pars = str.split("&");
+            if(pars.length>1){
+                //删除地址
+                pars.shift();
+                for(var i=0,par;par = pars[i++];){
+                    var params = par.split("="),
+                            labelparent,childlist;
+                    switch(params[0]){
+                        case "homeregionid2":
+                            highlight("area",params[1]);
+                            break;
+                        case "hometypeid":
+                            highlight("type",params[1]);
+                            break;
+                        case "mode":
+                            break;
+                        case "price1":
+                            highlight("price",params[1]);
+                            break;
+                        case "price2":
+                            break;
+                    }
+                }
+                showLabel();
+            }
+        }
+        function highlight(id,par){
+            var labelparent = document.getElementById("label_"+id),
+                childlist = labelparent.getElementsByTagName("span");
+            clearClass(labelparent);
+            for(var j=0,child;child=childlist[j++];){
+                if(child.getAttribute("vid") == par){
+                    domUtils.addClass(child,"b");
+                }
+            }
+        }
+        function dellabel(obj){
+            var me = obj,
+                key = me.getAttribute("key");
+            highlight(key,-1);
+            showLabel();
+        }
+        initLable();
+    </script>
+    </body>
+</html>

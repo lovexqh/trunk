@@ -1,0 +1,162 @@
+@import "common.css";
+@import "news.css";
+@import "home.css";
+.edui-tpl-sidebar { float:right; width:260px;}
+.edui-tpl-content { float:left; width: 720px; }
+
+
+/*新闻列表页样式*/
+.detailnav {
+    background-color: #FAFAFA;
+}
+.content {
+    width: 722px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;
+}
+.tabred {
+    height: 20px;
+    width: 103px;
+    background: url("../images/tabbarred.png") no-repeat;
+    text-align: center;
+    padding-top: 5px;
+}
+.contentdetail {
+    margin-top: 20px;
+    width: 720px;
+    background-color: white;
+}
+.cotentul {
+    line-height: 20px;
+    margin-left: -1px;
+    height: 30px;
+    margin-bottom: -5px;
+}
+.t14w {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bgtab {
+    height: 3px;
+    width: 720px;
+    background: url("../images/bottombar.jpg") repeat-x;
+    clear: both;
+}
+.padding20 {
+    padding: 20px 29px;
+    line-height: 24px;
+}
+.mynewslist {
+    min-height: 500px;
+    font-size: 14px;
+}
+.myblod {
+    border: 1px solid #CCC;
+}
+.paddingleft165 {
+padding-left: 165px;
+}
+.paddingleft300 {
+padding-left: 300px;
+}
+.fontblod {
+font-weight: bold;
+}
+.width550 {
+    width: 400px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 14px;
+    padding-left: 10px;
+    background: url(../images/diarybj.gif) no-repeat 1px -42px;
+}
+
+
+/*新闻详细页*/
+.mynewsdetailtitle {
+    font-size: 16px;
+    font-family: "黑体";
+    font-weight: bold;
+}
+.mynewsdetailcontent {
+    text-indent: 2em;
+    line-height: 24px;
+    font-size: 14px;
+}
+/*房源详细页*/
+.contentimg {
+height: 301px;
+width: 696px;
+background-color: white;
+padding: 22px 12px;
+}
+.showimage {
+padding: 3px;
+width: 280px;
+height: 230px;
+}
+.xiaotu {
+position: relative;
+width: 220px;
+height: 73px;
+overflow: hidden;
+}
+.margin46 {
+margin-left: 45px;
+}
+.detailul {
+line-height: 35px;
+}
+.telphone {
+background-image: url("../images/telphone.jpg");
+width: 190px;
+height: 37px;
+padding: 3px 0px 0px 35px;
+font-size: 26px;
+color: white;
+letter-spacing: 2px;
+}
+.contentdetail {
+margin-top: 20px;
+width: 720px;
+background-color: white;
+}
+.tabgary {
+height: 20px;
+width: 103px;
+background: url("../images/tabbargray.png") no-repeat;
+text-align: center;
+padding-top: 5px;
+color: black;
+font-size: 14px;
+font-weight: bold;
+}
+
+.showimgbg {
+background: url("../images/titlebar.jpg") no-repeat;
+width: 640px;
+height: 28px;
+padding: 3px 0px 0px 10px;
+}
+.margin500 {
+margin-left: 500px;
+}
+.title12w {
+color: white;
+font-size: 12px;
+font-weight: normal;
+}
+.largeimg {
+width: 597px;
+height: 303px;
+padding: 2px;
+margin: 10px 0px 0px 22px;
+}
+#mapcontainer {
+width: 600px;
+height: 300px;
+margin: 0px auto;
+}

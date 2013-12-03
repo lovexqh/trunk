@@ -1,0 +1,10 @@
+.xfui-news{width:100%;background-color: white;}
+.xfui-news-header{padding: 7px;color:#ffffff;font-weight: bold;-moz-border-radius: 5px 5px 0 0;border-radius:5px 5px 0 0;}
+.xfui-news-header .xfui-news-left{float: left;}
+.xfui-news-header .xfui-news-right{float: right;}
+.xfui-news-content{border: 1px solid #DDDDDD;}
+.xfui-news-content .xfui-news-item{padding: 5px;}
+.xfui-news-content .xfui-news-item .xfui-news-time{float: right;color:#888888;}
+.xfui-news-red{background-color: #D01D00;}
+.xfui-news-blue{background-color: #4D87B4;}
+.xfui-news-content .egg{background-color: #F6F6F6;}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html xmlns=”http://www.w3.org/1999/xhtml”>
+    <html>
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <title>网站管理员登陆</title>
+            <link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+            <style type="text/css">
+                .adminlogin {
+                    background: url(__PUBLIC__/admin/images/loginbg.jpg);
+                    padding-top: 230px;
+                }
+                
+                .content {
+                    background: url(__PUBLIC__/admin/images/graybg.jpg);
+                    height: 261px;
+                    padding-top: 20px;
+                }
+                
+                .detail {
+                    margin: 0 auto;
+                    width: 800px;
+                    height: 230px;
+                    padding-top: 10px;
+                }
+                
+                .detail img {
+                    vertical-align: middle;
+                }
+                
+                .detail li {
+                    line-height: 2;
+                    font-weight: 500;
+                }
+                
+                .fontw {
+                    font-weight: 800;
+                }
+                
+                .fl {
+                    float: left;
+                }
+                
+                .fr {
+                    float: right;
+                }
+                
+                .clear {
+                    clear: both;
+                }
+                
+                .solid {
+                    border: 1px solid blue
+                }
+                
+                .bl {
+                    width: 415px;
+                    height: 200px;
+                    border-right: 1px solid #AEAEAE;
+                }
+                
+                .login {
+                    width: 240px;
+                    padding-left: 50px;
+                    height: 180px;
+                    line-height: 3;
+                }
+                
+                .textw {
+                    width: 150px;
+                    height: 25px;
+                }
+                
+                .btnbg {
+                    margin-top: 15px;
+                    margin-left: 23px;
+                }
+                
+                .btnbg input {
+                    border: 0px;
+                    cursor: pointer;
+                    background: url(__PUBLIC__/admin/images/btnbg.jpg) no-repeat center;
+                    width: 77px;
+                    height: 26px;
+                    padding-left: 8px;
+                    letter-spacing: 3px;
+                    margin-left: 10px;
+                    color: white;
+                }
+                
+                .copyright {
+                    text-align: center;
+                    color: black;
+                    margin-top: 100px;
+                }
+            </style>
+        </head>
+        <body class="adminlogin">
+            <div class="content">
+                <div class="detail ">
+                    <div class="bl fl">
+                        <ul>
+                            <li>
+                                <img src="__PUBLIC__/admin/images/mylogo.png" border="0" /><img src="/Public/images1/systemtitle.png"/>
+                            </li>
+                            <li style="margin-top:15px;">
+                                1.本地权威的房源搜索，为您提供最新的房源信息。
+                            </li>
+                            <li>
+                                2.一站式的房源发布与交易，让您足不出户完成一切。
+                            </li>
+                            <li>
+                                3.高效便捷的使用感受。
+                            </li>
+                            <li>
+                                4.强大管理后台系统,管理内容易如反掌。
+                            </li>
+                        </ul>
+                    </div>
+                    <form id="form" action="{:U('Home/Public/doAdminLogin')}" method="post" onsubmit="return login()">
+                        <div class="login fl  pl20">
+                            <p>
+                                <span class="fontw">用户登录：</span>
+                            </p>
+                            <p style="margin-top:15px;">
+                                用户名：<input type="text" name="account" id="account" class="textw"/>
+                            </p>
+                            <p>
+                                &nbsp;&nbsp;&nbsp;密码：<input type="password" name="password" id="pwd" class="textw"/>
+                            </p>
+                            <p class="btnbg">
+                                <input type="submit" value="登 陆"/><input type="reset" value="重 置"/>
+                            </p>
+                        </div>
+                    </form>
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                版权所有#######
+            </p>
+        </body>
+        <script type="text/javascript">
+            function login(){
+                var user = document.getElementById("account");
+                var pwd = document.getElementById("pwd");
+                if (user.value && pwd.value) {
+                    var form = document.getElementById("form");
+                    return true;
+                }
+                else {
+                    alert("请输入用户名和密码");
+                    return false;
+                }
+            }
+        </script>
+    </html>

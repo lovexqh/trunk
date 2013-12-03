@@ -1,0 +1,3 @@
+<?php
+//000000000000a:19:{s:2:"id";s:1:"1";s:8:"realname";s:6:"许飞";s:4:"name";s:5:"admin";s:8:"nickname";s:9:"管理员";s:8:"password";s:32:"21232f297a57a5a743894a0e4a801fc3";s:12:"bind_account";s:0:"";s:15:"last_login_time";s:10:"1359786856";s:13:"last_login_ip";s:9:"127.0.0.1";s:11:"login_count";s:4:"1195";s:6:"verify";s:4:"8888";s:5:"email";s:15:"admin@admin.com";s:6:"remark";s:12:"备注信息";s:11:"create_time";s:10:"1222907803";s:11:"update_time";s:10:"1326266696";s:6:"status";s:1:"1";s:7:"type_id";s:1:"0";s:4:"info";s:0:"";s:9:"telephone";s:1:"0";s:6:"avatar";s:6:"no.pic";}
+?>

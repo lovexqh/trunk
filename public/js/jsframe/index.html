@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="xf_api.js"></script>
+    <style type="text/css">
+        .xfui-box .edui-button .xfui-for-btn{
+            width: 50px;
+            height: 50px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<div id="btn">
+    
+</div>
+
+<script type="text/javascript">
+//    var uibtn = new XF.ui.Popup({
+//        className : 'xfui-for-btn',
+//        content : 'ddd',
+//        _hidden : true
+//    });
+    var uibtn = new XF.ui.Dialog({
+        className : 'xfui-for-dialog',
+        content : 'asdfasdfasdf'
+    });
+    uibtn.render("btn");
+    uibtn.open();
+</script>
+</body>
+</html>

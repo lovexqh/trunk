@@ -1,0 +1,57 @@
+<script type="text/javascript"></script>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+    <p class="xy"><span class="fontw">当前位置：</span>权限管理> 添加节点</p>
+
+    <div class="content">
+        <form action="{:U('auth/Node/insert')}" method="post" enctype="multipart/form-data">
+        	  <input type="hidden" name="pid" id="pid" value='{$pid}'>
+            <table class="myaddhome">
+                <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">标题：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                        <input maxlength="40" type="text" name="title" class="myinput" id="bname">
+                    </td>
+                </tr>
+            
+                <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">名称：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                        <input maxlength="40" type="text" name="name" class="myinput">
+                    </td>
+                </tr>
+                 <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">是否显示为菜单：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                        <input maxlength="40" type="radio" name="ismenu"  checked="checked" value="1" >是
+                        <input maxlength="40" type="radio" name="ismenu"  value="0" >否
+                    </td>
+                </tr>
+               <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">序号：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                        <input maxlength="40" type="text" name="sort" class="myinput">
+                    </td>
+                </tr>
+
+                <tr class="graybg">
+                    <td class="textc btnbg" colspan="8">
+                        <input type="submit" value="提 交"/>
+                        <input type="reset" value="重 置"/>
+                        <input type="button" value="返 回"/>
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>

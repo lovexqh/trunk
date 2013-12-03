@@ -1,0 +1,54 @@
+[ 2013-02-28T12:59:58+00:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T12:59:58+00:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T20:59:59+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.041318s SQL = SHOW COLUMNS FROM ts_layout
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.032440s SQL = SELECT * FROM `ts_layout` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.041452s SQL = SHOW COLUMNS FROM ts_block
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.002177s SQL = SELECT * FROM `ts_block` WHERE ( `lid` = '1' )
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: member cab85b5ebf3a2fcf1c4bb05929647bf7.php 第 36 行.
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.004947s SQL = SHOW COLUMNS FROM ts_block
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.001288s SQL = SELECT * FROM `ts_block` WHERE ( `name` = 'sidebar' ) AND ( `lid` = '1' ) LIMIT 1 
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.058994s SQL = SHOW COLUMNS FROM ts_widget
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.030512s SQL = SELECT * FROM `ts_widget` WHERE bid=2
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.100025s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.001278s SQL = SELECT * FROM `ts_category` WHERE ( `id` = '76' )
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.061994s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.014047s SQL = SELECT * FROM `ts_model` WHERE id=1 LIMIT 1 
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.103205s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-02-28T21:00:00+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.044952s SQL = SELECT * FROM `ts_news` WHERE catid=76 LIMIT 5 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: home_history HistoryWidget.class.php 第 4 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.001274s SQL = SELECT * FROM `ts_block` WHERE ( `name` = 'content' ) AND ( `lid` = '1' ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.000884s SQL = SELECT * FROM `ts_widget` WHERE bid=1
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.054007s SQL = SHOW COLUMNS FROM ts_home
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.026279s SQL = SELECT * FROM `ts_home` WHERE ( `status` = 1 ) AND ( `publish` = 1 ) LIMIT 8 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.042709s SQL = SHOW COLUMNS FROM ts_home_region
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.005427s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.000664s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.000778s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.000593s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.000904s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.003676s SQL = SELECT * FROM `ts_home` WHERE ( `status` = 1 ) AND ( `publish` = 1 ) LIMIT 8 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.001412s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.000667s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.001002s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.001666s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 
+[ 2013-02-28T21:00:01+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | SQL:  RunTime:0.002016s SQL = SELECT `name` FROM `ts_home_region` WHERE ( `id` = '19' ) AND ( `status` = 1 ) LIMIT 1 

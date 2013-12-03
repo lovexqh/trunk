@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+    <p class="xy"><span class="fontw">当前位置：</span>权限管理> 添加角色</p>
+
+    <div class="content">
+        <form action="__URL__/insert" method="post" enctype="multipart/form-data">
+        	<input type="hidden" name="pid" id="pid" value='{$pid}'>
+            <table class="myaddhome">
+            
+                <tr class="whitebg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">名称：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                        <input maxlength="40" type="text" name="name" class="myinput">
+                    </td>
+                </tr>
+                <tr class="graybg">
+                    <td class="textc btnbg" colspan="8">
+                        <input type="submit" value="提 交"/>
+                        <input type="reset" value="重 置"/>
+                        <input type="button" value="返 回"/>
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+
+

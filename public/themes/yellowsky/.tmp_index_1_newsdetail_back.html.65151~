@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" href="/Public/css/common.css" rel="stylesheet"/>
+    <link type="text/css" href="/Public/css/layout.css" rel="stylesheet"/>
+    <link type="text/css" href="/Public/css/layoutnewsdetail.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <include file="./Tpl/bluesky/Index/header.html"/>
+    </div>
+    <div id="mainContent">
+        <div class="content">
+       
+		    <div class="contentdetail">
+           	<div class="detailnav"><ul class="myul cotentul"><li class="floatleft tabred t14w">房源介绍</li></ul>
+			<div class="bgtab"></div>
+			</div>
+			<div class="myblod padding20 mynewsdetail">
+				<p class="mynewsdetailtitle textcenter">{$content.title}</p>
+				<p class="textcenter fontblod">发布时间：{$content.createtime|toDate}</p>
+				<p class="mynewsdetailcontent">
+				{$content.description}
+
+</p>
+				
+			</div>
+           </div>
+        </div>
+        <div class="sidebar">
+                <div class="history edui-tpl-history d">
+                <div id="history_show">
+                    {:W('Display',array('position'=>"history",'layoutid'=>"$layoutid"))}
+                 </div>
+                 </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer" class="edui-tpl-footer">
+        <include file="./Tpl/bluesky/Index/footer.html"/>
+    </div>
+</div>
+<input type="hidden" id="subpath" value="__APP__">
+    <input type="hidden" id="layoutid" value="{$layoutid}">
+<eq name="modify" value="1">
+    <script type="text/javascript" src="/Public/js/updateLayout_h.js"></script>
+</eq>
+</body>
+</html>

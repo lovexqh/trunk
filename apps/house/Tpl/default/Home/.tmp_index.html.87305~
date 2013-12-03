@@ -1,0 +1,135 @@
+<script type="text/javascript" src="__PUBLIC__/admin/js/admin.js" defer="defer"></script>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+    <p class="xy"><span class="fontw">当前位置：</span>房屋管理</p>
+
+    <form action="{:U('house/Home/index')}" method="GET">
+
+        <div class="solid1 homesearch">
+            <p><span>类型：<select name="hometypeid">
+                <option value="">----请选择----</option>
+                <volist name="homeType" id="homeType">
+                    <option
+                    <if condition="$hometypeid == $homeType['id']">
+                        selected="selected"
+                    </if>
+                    value="{$homeType.id}">{$homeType.name}</option></volist>
+            </select>
+</span>
+<span>状态:<select name="publish">
+	  <option value="-1" >----请选择----</option>
+    <option value="0" <if condition="$publish eq 0"> selected="selected"</if> >未发布</option>
+    <option
+            value="1"<if condition="$publish eq 1"> selected="selected"</if>>已发布
+    </option>
+</select></span>
+<span>小区：<select name="homeregionid">
+    <option value="">----请选择----</option>
+    <volist name="homeRegion" id="region">
+        <option
+        <if condition="$homeregionid eq $region['id']">
+            selected="selected"
+        </if>
+        value="{$region.id}">{$region.name}</option></volist>
+</select></span>
+<span>户型：
+<select name="homesize">
+    <option value="">----请选择----</option>
+    <option value="1"
+    <if condition="$homesize eq 1">
+        selected="selected"
+    </if>>
+    1室</option>
+    <option value="2"
+    <if condition="$homesize eq 2">
+        selected="selected"
+    </if>>
+    2室</option>
+    <option value="3"
+    <if condition="$homesize eq 3">
+        selected="selected"
+    </if>>
+    3室</option>
+    <option value="+"
+    <if condition="$homesize eq '+'">
+        selected="selected"
+    </if>>
+    3室以上</option></select></span>
+
+            </p>
+            <p>
+	<span>
+价格：<input name="price1" class="width50" size="10" value="{$price1}"/> - <input class="width50" name="price2"
+                                                                               value="{$price2}" size="10"/> 元
+</span>
+	<span>
+    面积：<input name="square1" class="width50" value="{$square1}" size="10"/> - <input class="width50" name="square2"
+                                                                                     value="{$square2}" size="10"/> 平米
+</span>
+                <input value="搜 索" type="submit" class="searchbut"/>
+            </p>
+        </div>
+    </form>
+    <p class="addbtn"><a href="{:U('house/Home/add',array('type'=>$type))}"><span class="addbtnbg">添加房源</span></a>  
+	<input type="button" onclick="allSelect()" class="searchbut" value="全 选">&nbsp;
+        <input type="button" onclick="InverSelect()" class="searchbut" value="反 选">&nbsp;
+        <input type="button" onclick="allUnSelect()" class="searchbut" value="全 否" >&nbsp;
+        <input type="button" onclick="deleteSelect('__URL__')" class="searchbut" value="删除">&nbsp;</p>
+
+    <notempty name="list">
+    <div class="content">
+        <table id="selectstate">
+            <tr class="homeheard">
+                <td>选择</td>
+                <td width="12%">标题</td>
+                <td width="27%">地址</td>
+				<td>状态</td>
+                <td>创建日期</td>
+                <td>操作</td>
+            </tr>
+            <volist name="list" id="content" mod="2">
+                <tr
+                <eq name="mod" value="0">
+                    class="graybg"
+                </eq>
+                <eq name="mod" value="1"> class="whitebg"</eq>
+                >
+                <td><input type="checkbox" value="{$content.id}" /></td>
+                <td>{$content.title}</td>
+                <td>{$content.address}</td>
+				<td><if condition="$content.publish eq 0">
+					待审核
+					<else/>已发布
+					</if>
+	</td>
+                <td>{$content.createtime|toDate='Y-m-d'}</td>
+                <td class="managehometd">
+                    <!--<a href="__URL__/read/id/{$content.id}"><img src="__PUBLIC__/admin/images/showhome.gif"/>预览</a> | -->
+					  <a href="__APP__/Home/HomeHistory/add/homeid/{$content.id}"><img
+                        src="__PUBLIC__/admin/images/homeremark.gif"/>备注</a> | 
+						  <a href="__APP__/Home/HomeHistory/index/homeid/{$content.id}"><img
+                        src="__PUBLIC__/admin/images/homehistory.gif"/>历史</a> | 
+                    <a href="__URL__/edit/id/{$content.id}"><img
+                        src="__PUBLIC__/admin/images/updatehome.gif"/>修改</a>
+                </td>
+                </tr>
+            </volist>
+
+
+            <tr class="homeheard mypage">
+                <td colspan="6">&nbsp
+
+                    {$page}
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</notempty>
+
+
+
+
+

@@ -1,0 +1,57 @@
+[ 2013-04-07T05:56:20+00:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T05:56:20+00:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T13:56:20+08:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-04-07T13:56:21+08:00 ] /trunk/index.php?app=admin&mod=Index&act=index | SQL:  RunTime:0.097063s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-04-07T13:56:22+08:00 ] /trunk/index.php?app=admin&mod=Index&act=index | SQL:  RunTime:0.146393s SQL = SELECT * FROM `ts_node` WHERE pid=0 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-04-07T05:56:23+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T05:56:23+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T13:56:23+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-04-07T13:56:24+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.017059s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-04-07T13:56:24+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.001164s SQL = SELECT * FROM `ts_node` WHERE pid=152 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-04-07T13:56:24+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.000928s SQL = SELECT * FROM `ts_node` WHERE id=152 LIMIT 1 
+[ 2013-04-07T13:56:24+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-04-07T05:56:25+00:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T05:56:25+00:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T13:56:25+08:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-04-07T13:56:25+08:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Undefined index: site_logo GlobalAction.class.php 第 21 行.
+[ 2013-04-07T05:56:26+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T05:56:26+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T13:56:26+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-04-07T13:56:26+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | SQL:  RunTime:0.004956s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-04-07T13:56:26+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | SQL:  RunTime:0.001315s SQL = SELECT * FROM `ts_node` WHERE pid=99 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-04-07T13:56:26+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | SQL:  RunTime:0.001187s SQL = SELECT * FROM `ts_node` WHERE id=99 LIMIT 1 
+[ 2013-04-07T13:56:26+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-04-07T13:56:26+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=99& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-04-07T07:00:27+00:00 ] /trunk/index.php?app=admin&mod=Index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:00:27+00:00 ] /trunk/index.php?app=admin&mod=Index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T15:00:27+08:00 ] /trunk/index.php?app=admin&mod=Index | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-04-07T15:00:27+08:00 ] /trunk/index.php?app=admin&mod=Index | SQL:  RunTime:0.060819s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-04-07T15:00:27+08:00 ] /trunk/index.php?app=admin&mod=Index | SQL:  RunTime:0.010738s SQL = SELECT * FROM `ts_node` WHERE pid=0 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-04-07T07:00:28+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:00:28+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T15:00:28+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-04-07T15:00:28+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.004851s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-04-07T15:00:28+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.002832s SQL = SELECT * FROM `ts_node` WHERE pid=152 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-04-07T15:00:28+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.001374s SQL = SELECT * FROM `ts_node` WHERE id=152 LIMIT 1 
+[ 2013-04-07T15:00:28+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-04-07T07:00:30+00:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:00:30+00:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T15:00:30+08:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-04-07T15:00:30+08:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Undefined index: site_logo GlobalAction.class.php 第 21 行.
+[ 2013-04-07T07:37:04+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:37:04+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T07:37:16+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:37:16+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T07:38:08+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:38:08+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T07:38:13+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:38:13+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T15:38:13+08:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2] date() expects at least 1 parameter, 0 given TestAction.class.php 第 5 行.
+[ 2013-04-07T07:38:50+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:38:50+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T07:38:52+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:38:52+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T07:38:53+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:38:53+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-07T07:38:53+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-07T07:38:53+00:00 ] /trunk/index.php?app=admin&mod=Test | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.

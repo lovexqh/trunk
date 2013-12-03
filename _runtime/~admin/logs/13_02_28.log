@@ -1,0 +1,39 @@
+[ 2013-02-28T13:00:06+00:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T13:00:06+00:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T13:00:06+00:00 ] /trunk/index.php?app=admin&mod=Public&act=adminlogin | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T13:00:06+00:00 ] /trunk/index.php?app=admin&mod=Public&act=adminlogin | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T13:00:07+00:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T13:00:07+00:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T21:00:08+08:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | SQL:  RunTime:0.075310s SQL = SHOW COLUMNS FROM ts_user
+[ 2013-02-28T21:00:08+08:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | SQL:  RunTime:0.001134s SQL = SELECT `id` FROM `ts_user` WHERE name='admin' LIMIT 1 
+[ 2013-02-28T21:00:08+08:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | NOTIC: [8] Undefined index: uid PassportService.class.php 第 57 行.
+[ 2013-02-28T21:00:08+08:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | SQL:  RunTime:0.024201s SQL = SHOW COLUMNS FROM ts_login_record
+[ 2013-02-28T21:00:08+08:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | SQL:  RunTime:0.007574s SQL = INSERT INTO `ts_login_record` (`uid`,`ip`,`place`,`ctime`) VALUES ('1','127.0.0.1','- LAN',1362056408)
+[ 2013-02-28T21:00:08+08:00 ] /trunk/index.php?app=Admin&mod=Public&act=doAdminLogin | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-28T13:00:09+00:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T13:00:09+00:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T21:00:09+08:00 ] /trunk/index.php?app=admin&mod=Index&act=index | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-02-28T21:00:09+08:00 ] /trunk/index.php?app=admin&mod=Index&act=index | SQL:  RunTime:0.055166s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-02-28T21:00:09+08:00 ] /trunk/index.php?app=admin&mod=Index&act=index | SQL:  RunTime:0.026965s SQL = SELECT * FROM `ts_node` WHERE pid=0 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-02-28T13:00:10+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T13:00:10+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T21:00:10+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-02-28T21:00:10+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.003497s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-02-28T21:00:10+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.000938s SQL = SELECT * FROM `ts_node` WHERE pid=152 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-02-28T21:00:10+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | SQL:  RunTime:0.000480s SQL = SELECT * FROM `ts_node` WHERE id=152 LIMIT 1 
+[ 2013-02-28T21:00:10+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=152& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-02-28T13:00:10+00:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T13:00:10+00:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T21:00:10+08:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-02-28T21:00:10+08:00 ] /trunk/index.php?app=Admin&mod=global&act=index | NOTIC: [8] Undefined index: site_logo GlobalAction.class.php 第 21 行.
+[ 2013-02-28T13:00:11+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-28T13:00:11+00:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [8] Use of undefined constant GROUP_NAME - assumed 'GROUP_NAME' SystemPopedomService.class.php 第 174 行.
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | SQL:  RunTime:0.003550s SQL = SHOW COLUMNS FROM ts_node
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | SQL:  RunTime:0.001494s SQL = SELECT * FROM `ts_node` WHERE pid=118 AND name != "PUBLIC" AND status=1 AND ismenu=1 ORDER BY sort
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | SQL:  RunTime:0.000222s SQL = SELECT * FROM `ts_node` WHERE id=118 LIMIT 1 
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.
+[ 2013-02-28T21:00:11+08:00 ] /trunk/index.php?app=admin&mod=Index&act=getMenu&id=118& | NOTIC: [8] Undefined offset: 2 functions.php 第 37 行.

@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="__PUBLIC__/admin/css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="__PUBLIC__/admin/css/adminmain.css" type="text/css"/>
+<div class="container solid1">
+    <p class="xy"><span class="fontw">当前位置：</span>房屋管理 > 查看房屋类型</p>
+
+    <div class="content">
+        <form action="__URL__/index" method="post" >
+            <table class="myaddhome">
+                <tr class="graybg">
+                    <td class="textr" width="10%">
+                        <span class="fontw">名称：</span>
+                    </td>
+                    <td class="textl"  colspan="7">
+                      {$vo.name}
+                    </td>
+                </tr>
+            
+
+                <tr class="whitebg" height="165px">
+                    <td class="textr" width="10%">
+                        <span class="fontw">备注：</span>
+                    </td>
+                    <td class="textl" colspan="7">
+                      {$vo.remark}
+                    </td>
+
+                </tr>
+                <tr class="graybg">
+                    <td class="textc btnbg" colspan="8">
+                        <input type="submit" value="返 回"/>
+
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

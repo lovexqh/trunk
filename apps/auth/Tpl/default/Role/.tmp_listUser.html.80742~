@@ -1,0 +1,34 @@
+<link href="__PUBLIC__/js/treeTable/jquery.treeTable.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/treeTable/jquery.treeTable.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function()  {
+  $("#tree").treeTable();
+});
+
+</script>
+<p>
+	<a href="__URL__">返回</a>
+</p>
+<table width="99%" border="0" align="center" cellpadding="3"
+	cellspacing="1" class="table_style" style="text-align: center;">
+	<tr>
+		<td width="10%">序号</td>
+		<td width="15%">名称</td>
+		<td width="10%">创建时间</td>
+		<td width="10%">更新时间</td>
+		<td  width="30%">操作</td>
+	</tr>
+	<volist name="list" id="vo">
+	<tr>
+		<td>{$key+1}</td>
+		<td>{$vo.nickname}</td>
+		<td>{$vo.create_time|toDate='Y-m-d H#i#s'}
+		</td>
+		<td>{$vo.create_time|toDate='Y-m-d H#i#s'}
+		</td>
+		<td><a href="__URL__/deleteUser/id/{$vo.id}">删除</a></td>
+	</tr>
+	</volist>
+</table>

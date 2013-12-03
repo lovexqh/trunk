@@ -1,0 +1,6 @@
+<script type='text/javascript' src='http://localhost/trunk/public/test/widget/internal.js'></script>
+<script type="text/javascript">
+    dialog.onok = function () {
+		window.parent.wsubmit("");
+    };
+</script>

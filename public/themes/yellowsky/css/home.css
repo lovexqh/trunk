@@ -1,0 +1,13 @@
+.xfui-articleList{width:720px;}
+.xfui-articleList-header{height:27px;}
+.xfui-articleitem{float: left;margin:5px 14px;}
+.xfui-articleitem .xfui-articleitem-img{padding: 4px;border: 1px solid #CCC;}
+.xfui-articleitem-price .xfui-articleitem-value{color:red;}
+.xfui-articleList-header .xfui-articleList-header-more{float: right;margin-top: 5px;}
+.xfui-articleList-blue .xfui-articleList-header-more{color: #4D86B3;}
+.xfui-articleList-red .xfui-articleList-header-more{color: #C92502;}
+.xfui-articleList-blue{background: url("../images/bluearea.jpg") no-repeat;}
+.xfui-articleList-red{background: url("../images/area.jpg") no-repeat;}
+
+
+

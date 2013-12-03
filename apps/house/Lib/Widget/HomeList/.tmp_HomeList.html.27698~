@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title></title>
+        <!--<script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>-->
+        <link type="text/css" href="{$uri}/css/contentlist.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="container">
+        </div>
+        <div id="xfui-contentlist" class="xfui-box xfui-contentlist ">
+            <div class="xfui-contentlist-title">
+                为您找到{$count}套房源
+            </div>
+            <div class="xfui-contentlist-content">
+            	<volist name="homes" id="vo" >
+                <div class="xfui-contentlist-item">
+                    <div class="xfui-contentlist-house">
+                        <div class="pic">
+                            <a href="{$vo.url}"><img src="{$vo.thumb}" onerror="this.src='/Public/images/nopic.png'" width="140px" height="105px"></a>
+                        </div><h3><a href="{$vo.url}">{$vo.title}</a></h3>
+                        <p>
+                        </p>
+                        <!--<p>-->
+                            <!--{$vo.description}-->
+                        <!--</p>-->
+                        <p>
+                        </p>
+                        <p>
+                            户型:{$vo.homesize}厅{$vo.parlour}室{$vo.toilet}卫&nbsp;&nbsp;楼层:{$vo.myhigh}/{$vo.high}
+                        </p>
+                        <p>
+                            {$vo.user}<span class="xfui-contentlist-time">&nbsp;{$vo.difftime}</span>
+                        </p>
+                    </div>
+                    <div class="xfui-contentlist-price">
+                        <p class="xfui-contentlist-p">
+                            {$vo.price}
+                        </p>
+                        <p class="xfui-contentlist-size">
+                            {$vo.square}平米
+                        </p>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </div>
+       
+          </volist>
+              
+            </div>
+            <div class="xfui-contentlist-page">
+            {$page}
+            </div>
+        </div>
+    </body>
+</html>

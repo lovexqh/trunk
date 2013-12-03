@@ -1,0 +1,61 @@
+<table width="99%" border="0" align="center" cellpadding="3" cellspacing="1" class="table_style">
+    <tr>
+      <input type="hidden" name="type"  value='{$type}'>
+        <td width="18%" class="left_title_1"><span class="left-title">标题：</span></td>
+        <td width="82%">{$vo.title}</td>
+    </tr>
+    <tr>
+        <td class="left_title_2">关键字：</td>
+        <td>{$vo.keywords}</td>
+    </tr>
+	<tr>
+        <td class="left_title_2">户型：</td>
+        <td>{$vo.homesize}室{$vo.parlour}厅{$vo.toilet}卫</td>
+    </tr>
+		<tr>
+        <td class="left_title_2">户型面积：</td>
+        <td>{$vo.square}平米</td>
+    </tr>
+	<tr>
+        <td class="left_title_2">层数：</td>
+        <td>第{$vo.myhigh}/{$vo.high}层数</td>
+    </tr>
+	<tr>
+        <td class="left_title_2">朝向：</td>
+        <td>{$vo.face}</td>
+    </tr>
+	
+    <tr>
+        <td class="left_title_2">缩放图：</td>
+               <td>
+               <img src="Tpl/Uploads/s_{$vo.thumb}" /> 
+              </td>
+    </tr>
+			<tr>
+        <td class="left_title_2">房屋配置：</td>
+        <td><volist name="homeConfig" id="config">&nbsp;&nbsp;{$config.name}</volist></td>
+    </tr>
+			<tr>
+        <td class="left_title_2">地理位置：</td>
+        <td>{$vo.map}</td>
+    </tr>
+    <tr>
+        <td class="left_title_2">房屋描述：</td>
+        <td>
+		{$vo.description}
+        </td>
+    </tr>
+	 <tr>
+        <td class="left_title_2">小区描述：</td>
+        <td>
+{$vo.village}
+        </td>
+    </tr>
+    <tr>
+        <td class="left_title_1"></td>
+        <td><input type="submit" value="发布"><input type="submit" value="不通过"><input type="reset" value="返回"></td>
+    </tr>
+</table>
+
+
+

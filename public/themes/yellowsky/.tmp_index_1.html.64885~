@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" href="__PUBLIC__/test/css/common.css" rel="stylesheet" />
+    <link type="text/css" href="__PUBLIC__/test/css/layout.css" rel="stylesheet" />
+    <script type="text/javascript" src="__PUBLIC__/test/jsframe/xf_api.js"></script>
+</head>
+<body>
+<div id="container">
+    <div class="topad edui-tpl-topad">
+        <div id="topad_show">
+        </div>
+    </div>
+  <div id="header">
+      <include file="__THEME__/header"/>
+  </div>
+  <div id="mainContent">
+    <div class="sidebar edui-tpl-sidebar">
+        <div id="sidebar_show">
+        	{:B("sidebar",$lid)}
+        </div>
+    </div>
+    <div id="content" class="edui-tpl-content">
+        <div id="content_show">
+			{:B("content",$lid)}
+        </div>
+    </div>
+      <div class="clear"></div>
+	  
+  </div>
+  <div>
+      <include file="footer.html"/>
+  </div>
+</div>
+<input type="hidden" id="add" value="{:U('theme/layout/addWdidget')}"/>
+<input type="hidden" id="lw" value="{:U('theme/layout/listWidget')}"/>
+<input type="hidden" id="dw" value="{:U('theme/layout/delWidget')}"/>
+<input type="hidden" id="ta" value="{:U('theme/layout/toAddWidget')}"/>
+<input type="hidden" id="aw" value="{:U('theme/layout/addWidget')}"/>
+<div  id="blocks" >{$blocks}</div>
+<input type="hidden" id="te" value="{:U('theme/layout/toEditWidget')}">
+<eq name="modify" value="1">
+    <script type="text/javascript" src="__PUBLIC__/test/js/layout.js"></script>
+</eq>
+</body>
+<include file="__THEME__/footer"/>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" href="__PUBLIC__/test/css/common.css" rel="stylesheet" />
+    <link type="text/css" href="__PUBLIC__/test/css/layout.css" rel="stylesheet" />
+    <script type="text/javascript" src="__PUBLIC__/test/jsframe/xf_api.js"></script>
+</head>
+<body>
+<div id="container">
+   <div class="area1 edui-tpl-area1">
+        <div id="area1_show">
+        	{:B('news')}
+        </div>
+        </div>
+</div>
+<input type="hidden" id="subpath" value="__APP__">
+    <input type="hidden" id="layoutid" value="{$layoutid}">
+<eq name="modify" value="1">
+    <script type="text/javascript" src="__PUBLIC__/test/js/updateLayout_h.js"></script>
+</eq>
+</body>
+</html>

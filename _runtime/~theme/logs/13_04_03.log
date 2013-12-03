@@ -1,0 +1,49 @@
+[ 2013-04-03T04:44:28+00:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:44:28+00:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] ����Ŀ�����������ܾ����޷����ӡ�
+ (trying to connect via tcp://localhost:3306) DbMysql.class.php 第 62 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: ����Ŀ�����������ܾ����޷����ӡ�
+ DbMysql.class.php 第 62 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: class ThinkException.class.php 第 80 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: type ThinkException.class.php 第 80 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: file ThinkException.class.php 第 79 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: line ThinkException.class.php 第 79 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: class ThinkException.class.php 第 80 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Undefined index: type ThinkException.class.php 第 80 行.
+[ 2013-04-03T12:44:30+08:00 ] /trunk/index.php?app=theme&mod=layout&act=editLayout&id=1 | NOTIC: [8] Array to string conversion ThinkException.class.php 第 81 行.
+[ 2013-04-03T04:48:58+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:48:58+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:48:58+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 14 行.
+[ 2013-04-03T12:48:58+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 22 行.
+[ 2013-04-03T04:52:31+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:52:31+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:52:31+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 14 行.
+[ 2013-04-03T12:52:31+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 22 行.
+[ 2013-04-03T04:52:33+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:52:33+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:52:33+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 14 行.
+[ 2013-04-03T12:52:33+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 22 行.
+[ 2013-04-03T04:52:35+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:52:35+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:52:35+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 14 行.
+[ 2013-04-03T12:52:35+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 22 行.
+[ 2013-04-03T04:52:53+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:52:53+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:52:53+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-04-03T12:52:53+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-04-03T12:52:53+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-04-03T12:52:53+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-04-03T12:52:53+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 16 行.
+[ 2013-04-03T12:52:53+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 24 行.
+[ 2013-04-03T06:21:29+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:29+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:29+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 16 行.
+[ 2013-04-03T14:21:29+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 24 行.
+[ 2013-04-03T06:21:31+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:31+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:31+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 16 行.
+[ 2013-04-03T14:21:31+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 24 行.
+[ 2013-04-03T12:38:38+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:38+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:38+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 16 行.
+[ 2013-04-03T20:38:38+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 24 行.

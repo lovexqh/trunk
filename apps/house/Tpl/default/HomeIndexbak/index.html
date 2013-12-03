@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" href="/Public/css/common.css" rel="stylesheet"/>
+    <link type="text/css" href="/Public/css/layoutpublish.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>
+</head>
+<script type="text/javascript">
+    <!--
+    checkDelete = function ( id ) {
+        if ( confirm( '你确定要删除该配置项？' ) ) {
+            location.href = '__URL__/delete/id/' + id
+        }
+    }
+    //-->
+</script>
+<body>
+<div id="container">
+    <div id="header">
+        <include file="./Tpl/bluesky/Index/header.html"/>
+    </div>
+    <div id="mainContent">
+        <div class="content">
+       
+		    <div class="contentdetail">
+           	<div class="detailnav"><ul class="myul cotentul"><li class="floatleft tabred t14w">房源管理</li></ul>
+			<div class="bgtab"></div>
+			</div>
+			<div class="myblod mynewsdetail">
+				<div class="titlebg"></div>
+				<div class="padding20">
+				 <table style="width:100%;padding:0px;margin:0px;border-collapse: collapse;
+border-spacing:0;">
+            <tr class="homeheard">
+                <td width="8%">序号</td>
+                <td width="35%">标题</td>
+                <td>创建日期</td>
+				<td>状态</td>
+                <td>操作</td>
+            </tr>
+            <volist name="list" id="content" mod="2">
+                <tr
+                <eq name="mod" value="0">
+                    class="graybg"
+                </eq>
+                <eq name="mod" value="1"> class="whitebg"</eq>
+                >
+                <td>{$key+1}</td>
+                <td>{$content.title}</td>
+                <td>{$content.createtime|toDate='Y-m-d H#i#s'}</td>
+				<td>
+					<if condition="$content.publish eq 0">
+					待审核
+					<else/>已发布
+				</if></td>
+                <td class="managehometd">
+                    <a href="__URL__/edit/id/{$content.id}"><img
+                        src="__PUBLIC__/images1/updatehome.gif"/>修改</a>
+                    | <a href="javascript:void(0);" onclick="javascript:checkDelete('{$content.id}');">
+                        <img src="__PUBLIC__/images1/delhome.gif"/>删除</a> | <a
+                            href="__URL__/imageManage/id/{$content.id}"><img src="__PUBLIC__/images1/manageimg.gif"/>图片管理</a>
+                </td>
+                </tr>
+            </volist>
+
+
+            <tr class="homeheard mypage">
+                <td colspan="5">&nbsp
+
+                    <!--	<span class="fl textl">&nbsp共38条数据 每页15条</span><span class="fr textr">
+                 <a href="#">首页</a> <a href="#"><img src="__PUBLIC__/images1/preleft.gif"/></a>
+                 <a href="#"><img src="__PUBLIC__/images1/nextright.gif"/></a> <a href="#">末页</a>
+                 跳转到第 <input class="width30" /> 页 <img src="__PUBLIC__/images1/go.gif"/> &nbsp;</span>-->
+                    {$page}
+
+                </td>
+            </tr>
+        </table>
+				</div>
+			</div>
+           </div>
+        </div>
+        <div class="sidebar">
+			  <include file="./Tpl/bluesky/Index/usercenter.html"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer" class="edui-tpl-footer">
+        <include file="./Tpl/bluesky/Index/footer.html"/>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.clear{clear: both;}
+*{font-family: "宋体"}
+
+.xfui-contentlist a,.xfui-contentlist a:hover,.xfui-contentlist a:active,.xfui-contentlist a:visited{color:#4D87B4;font-size: 14px;}
+
+
+.xfui-contentlist-house p {margin: 5px;}
+.xfui-contentlist{width: 721px;height:100%;}
+.xfui-contentlist-content{border-left: 1px solid #CCC;border-right: 1px solid #CCC;border-bottom: 1px solid #CCC;margin-bottom: 10px;}
+.xfui-contentlist .xfui-contentlist-title{height:27px;background: url("../images/area.png") no-repeat;color:white;padding:5px 40px;}
+.xfui-contentlist-item{border-bottom: 1px dashed #CCC;}
+.xfui-contentlist-item .pic{border:1px solid #ccc;float: left;margin-right: 10px;}
+.xfui-contentlist-item h3{color: #4B88B4;}
+.xfui-contentlist-item .xfui-contentlist-house{width:560px;float: left;padding: 10px;}
+.xfui-contentlist-item .xfui-contentlist-price {float: right;width: 135px;padding:0 0;text-align: center;}
+.xfui-contentlist-price .xfui-contentlist-p{color:#D01C00;}
+.xfui-contentlist-price .xfui-contentlist-size{color:#CCCECD;font-size: 14px;}
+.xfui-contentlist-house .xfui-contentlist-time{color:#999999;font-size: 12px;}
+
+.xfui-contentlist .xfui-contentlist-page{float: right;}
+.xfui-contentlist .xfui-contentlist-page a{display: inline-block;padding: 2px;border: 1px solid #ccc;color:#555555}
+.xfui-contentlist .xfui-contentlist-page span.current{display: inline-block;padding: 2px 8px;border: 1px solid #D01D00;text-align: center;s}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link type="text/css" href="/Public/css/common.css" rel="stylesheet" />
+<link type="text/css" href="/Public/css/layout.css" rel="stylesheet" />
+<link type="text/css" href="/Public/css/layoutdetail.css"
+	rel="stylesheet" />
+<script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+<script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>
+<style type="text/css">
+#mapcontainer {
+	width: 600px;
+	height: 300px;
+	margin: 0px auto;
+}
+
+.xiaotu {
+	position: relative;
+	width: 220px;
+	height: 73px;
+	overflow: hidden;
+}
+
+.xiaotu ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+	padding: 0;
+	width: 220px;
+}
+
+.xiaotu ul li {
+	list-style-type: none;
+	float: left;
+	padding-right: 2px;
+}
+
+.xiaotu img {
+	width: 36px;
+	height: 40px;
+}
+</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<include file="./Tpl/bluesky/Index/header.html" />
+		</div>
+		<div id="mainContent">
+			<div class="content">
+				<div class="contentimg myblod">
+					<div style="font-weight: 800; font-size: 16px; margin-top: -7px;">{$home.title}</div>
+					<div class="floatleft">
+						<img src="" id="datu" class="showimage myblod" />
+						<div>
+							<div style="display: inline-block; float: left; padding: 12px 0;">
+								<img src="/Public/images/picleft.png" onclick="pre()" border="0"
+									width="24" style="" />
+							</div>
+							<div id="xiaotu" class="xiaotu"
+								style="display: inline-block; float: left;"></div>
+							<div style="display: inline-block; padding: 12px 0;">
+								<img src="/Public/images/picright.png" onclick="next()"
+									border="0" width="24" style="" style=" vertical-align:middle;" />
+							</div>
+						</div>
+					</div>
+					<div class="floatleft margin46">
+						<ul class="detailul">
+							<li>租金：{$home.price}元/月</li>
+							<li>房型：{$home.homesize}室{$home.parlour}厅{$home.toilet}卫</li>
+							<li class="telphone">{$user.telephone}</li>
+							<li>小区：{$region.name}</li>
+							<li>地址：{$home.address}</li>
+							<li>装修：普通装修 楼层：{$home.myhigh}层</li>
+							<li>朝向：{$home.face}</li>
+						</ul>
+
+					</div>
+				</div>
+				<div class="contentdetail">
+					<div class="detailnav">
+						<ul class="myul cotentul">
+							<li class="floatleft tabred t14w">房源介绍</li>
+							<li class="floatleft tabgary"><a href="#fwtp"
+								style="color: black;">房源图片</a></li>
+							<li class="floatleft tabgary"><a href="#dlwz"
+								style="color: black;">地理位置</a></li>
+							<li class="floatleft tabgary"><a href="#xqjs"
+								style="color: black;">小区介绍</a></li>
+						</ul>
+						<div class="bgtab"></div>
+					</div>
+					<div class="myblod padding20">
+						<p>{$home.description}</p>
+						<div class="showimgbg t14w">
+							房屋图片<a href="#" name="fwtp" class="title12w margin500">返回顶部<img
+								src="/Public/images/back.png" style="margin-bottom: -3px;" /></a>{$home.thumb}
+						</div>
+						<div style="text-align: center;">
+							<volist name="thumbs" id="thumb"> <img src="{$thumb}"
+								class="largeimg myblod" />
+							<br>
+							</volist>
+						</div>
+						<input id="location" type="hidden" value="{$home.map}" />
+						<div class="showimgbg t14w">
+							地理位置<a href="#" name="dlwz" class="title12w margin500">返回顶部</a><img
+								src="/Public/images/back.png" style="margin-bottom: -3px;" />
+						</div>
+						<div id="mapcontainer"></div>
+						<div class="showimgbg t14w">
+							小区介绍<a href="#" name="xqjs" class="title12w margin500">返回顶部</a><img
+								src="/Public/images/back.png" style="margin-bottom: -3px;" />
+						</div>
+						<p>{$home.village}</p>
+					</div>
+				</div>
+			</div>
+			<div class="sidebar">
+				<div class="owner myblod">
+					<img src="{$user.avatar}" class="ownerimg myblod" />
+					<p class="ownername">
+						<a href="#">{$user.realname}</a>
+					</p>
+				</div>
+				<div class="history edui-tpl-history d">
+					<div id="history_show">
+						{:W('Display',array('position'=>"history",'layoutid'=>"$layoutid"))}
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+			<include file="./Tpl/bluesky/Index/footer.html" />
+	</div>
+	<input type="hidden" id="subpath" value="__APP__">
+	<input type="hidden" id="layoutid" value="{$layoutid}">
+	<eq name="modify" value="1"> <script type="text/javascript"
+		src="/Public/js/updateLayout_h.js"></script> </eq>
+
+	<input type="hidden" id="picturn" value="{$home.thumb}" />
+	<script type="text/javascript">
+		//初始化图片
+		var $ = function(id) {
+			return document.getElementById(id);
+		};
+
+		var local = document.getElementById("location");
+		local.onblur = function() {
+			initMap();
+		}
+		var initMap = function() {
+			//地图
+			var map = new BMap.Map("mapcontainer"); // 创建地图实例 创建地图实例
+			var myGeo = new BMap.Geocoder();
+			myGeo.getPoint(local.value, function(point) {
+				if (point) {
+					map.centerAndZoom(point, 16);
+					map.addOverlay(new BMap.Marker(point));
+				}
+			}, "北京市");
+		};
+		initMap();
+	</script>
+
+
+
+	<script type="text/javascript">
+		var Merquee = function(options) {
+			this.init(options);
+		};
+		Merquee.prototype = {
+			index : 0,
+			lilist : [],
+			ul : "",
+			showitem : 5,
+			itemwidth : 0,
+			init : function(opts) {
+				var me = this;
+				for ( var k in opts) {
+					me[k] = opts[k];
+				}
+			},
+			next : function() {
+				if (this.index != this.lilist.length - 1) {
+					this.index += 1;
+				}
+				this.highlight();
+			},
+			pre : function() {
+				if (this.index != 0) {
+					this.index -= 1;
+				}
+				this.highlight();
+			},
+			highlight : function() {
+				for ( var i = 0, li; li = this.lilist[i++];) {
+					li.getElementsByTagName("img")[0].style.border = "3px solid #ccc";
+				}
+				var item = this.index - this.showitem;
+				this.ul.style.left = item >= 0 ? "-"
+						+ (item * this.itemwidth + this.itemwidth) + "px"
+						: "0px";
+				this.lilist[this.index].getElementsByTagName("img")[0].style.border = "3px solid red";
+				var tmpstr = this.lilist[this.index]
+						.getElementsByTagName("img")[0].src
+						.substring(0, this.lilist[this.index]
+								.getElementsByTagName("img")[0].src
+								.lastIndexOf("/") + 1);
+				$('datu').src = this.lilist[this.index]
+						.getElementsByTagName("img")[0].src.replace(tmpstr
+						+ "s_", tmpstr + "m_");
+			},
+			getHtmlTpl : function() {
+				var str = "<ul>";
+				for ( var i = 0, img; img = this.data[i++];) {
+					//var img2 = mreplace(img,"s_");
+
+					var tmpstr = img.substring(0, img.lastIndexOf("/") + 1);
+
+					var img2 = img.replace(tmpstr, tmpstr + "s_");
+
+					str += '<li><img src="' + img2
+							+ '" onclick="showItem(this)" index="' + i
+							+ '" style="border:3px solid #ccc"></li>';
+				}
+				str += '</ul>';
+				return str;
+			},
+			render : function() {
+				var container = document.getElementById(this.id);
+				container.innerHTML = this.getHtmlTpl();
+				this.ul = container.getElementsByTagName("ul")[0];
+				this.lilist = this.ul.getElementsByTagName("li");
+				this.itemwidth = this.lilist[0].offsetWidth + 2;
+				this.ul.style.width = this.itemwidth * this.lilist.length
+						+ "px";
+				this.lilist[this.index].getElementsByTagName("img")[0].style.border = "3px solid red";
+				var mysrc = this.lilist[this.index].getElementsByTagName("img")[0].src;
+
+				var tmpstr = mysrc.substring(0, mysrc.lastIndexOf("/") + 1);
+
+				$('datu').src = mysrc.replace(tmpstr + "s_", tmpstr + "m_");
+			}
+		};
+		var piclist = $('picturn').value.split(',');
+		var m = new Merquee({
+			id : "xiaotu",
+			data : piclist
+		});
+		m.render();
+		function showItem(obj) {
+			var imgsrc = obj.getAttribute("src"), index = obj
+					.getAttribute("index");
+			m.index = index - 1;
+			m.highlight();
+		}
+		function pre() {
+			m.pre();
+		}
+		function next() {
+			m.next();
+		}
+		var mreplace = function(str, r) {
+			var tmpstr = str.substring(0, str.lastIndexOf("/") + 1);
+			return str.replace(tmpstr, tmpstr + r);
+		};
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="/Public/widget/internal.js"></script>
+    <title>文章首页列表</title>
+</head>
+<body>
+<div class="wrap">
+    <table>
+        <tr>
+            <td>类型：</td>
+            <td>
+                <select id="type">
+                    <volist name="type" id="t">
+                        <option value="{$key}">{$t}</option>
+                    </volist>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>数量：</td>
+            <td><input type="text" id="count" value="8"></td>
+        </tr>
+        <tr>
+            <td>微件样式：</td>
+            <td>
+                <select id="style">
+                <volist name="style" id="s">
+                    <option value="{$key}">{$s}</option>
+                </volist>
+            </select></td>
+        </tr>
+    </table>
+</div>
+<script type='text/javascript' src='http://localhost/trunk/public/test/widget/internal.js'></script>
+<script type="text/javascript">
+    dialog.onok = function () {
+
+        //type类型，count数量，style微件样式
+        var str = '{"type":"'+$("type").value+'","count":'+$("count").value+',"style":"'+$("style").value+'","postid":"65"}';
+		window.parent.wsubmit(str);
+    };
+</script>
+</body>
+</html>

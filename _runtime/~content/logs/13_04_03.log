@@ -1,0 +1,234 @@
+[ 2013-04-03T04:45:19+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T04:45:19+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:45:19+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\content\Lib\Action\CategoryAction.class.php on line 76 and defined extend.php 第 2484 行.
+[ 2013-04-03T12:45:19+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.041779s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T12:45:19+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.001322s SQL = SELECT * FROM `ts_category` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-04-03T12:45:19+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:45:19+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:45:19+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:45:19+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T06:21:27+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:27+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:27+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\content\Lib\Action\CategoryAction.class.php on line 76 and defined extend.php 第 2484 行.
+[ 2013-04-03T14:21:27+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.021694s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T14:21:27+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.002464s SQL = SELECT * FROM `ts_category` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-04-03T14:21:27+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:27+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:27+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:27+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T06:21:44+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:44+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:44+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\content\Lib\Action\CategoryAction.class.php on line 76 and defined extend.php 第 2484 行.
+[ 2013-04-03T14:21:44+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.005733s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T14:21:44+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.002016s SQL = SELECT * FROM `ts_category` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-04-03T14:21:44+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:44+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:44+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T14:21:44+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T06:21:47+00:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:47+00:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:47+08:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-04-03T14:21:47+08:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-04-03T14:21:47+08:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [8] Undefined variable: catid 8f6bf3910aef9bf122902c179809c981.php 第 9 行.
+[ 2013-04-03T06:21:47+00:00 ] /trunk/index.php?app=content&mod=Content&act=welcome | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:47+00:00 ] /trunk/index.php?app=content&mod=Content&act=welcome | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T06:21:47+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:47+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:47+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: id CategoryAction.class.php 第 81 行.
+[ 2013-04-03T14:21:47+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Creating default object from empty value CategoryAction.class.php 第 84 行.
+[ 2013-04-03T06:21:49+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:49+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:49+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.003891s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T14:21:49+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001813s SQL = SELECT * FROM `ts_category` WHERE ( `pid` = '0' )
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.281955s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.022925s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='1' LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001438s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='1' LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001141s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001383s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000542s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000809s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.004531s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.002604s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 75 LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001544s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 76 LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000540s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 85 LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000803s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 86 LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000821s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 87 LIMIT 1 
+[ 2013-04-03T14:21:50+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000843s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 88 LIMIT 1 
+[ 2013-04-03T06:21:51+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:51+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:51+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.015424s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:21:51+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001533s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:21:51+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.052225s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:21:51+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.003427s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T14:21:51+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001033s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:21:55+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:55+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:55+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004952s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:21:55+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.003051s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:21:55+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004211s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:21:55+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.000758s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T14:21:55+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001050s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:21:56+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:56+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:56+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.006905s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:21:56+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001034s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:21:56+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.003957s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:21:56+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001416s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T14:21:56+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.000813s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:21:58+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:58+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:58+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004418s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:21:58+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001835s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:21:58+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.006202s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:21:58+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001793s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T14:21:58+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001328s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:21:59+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:21:59+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:21:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.013052s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:21:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.000647s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '0' ) LIMIT 1 
+[ 2013-04-03T14:21:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.000866s SQL = SELECT COUNT(id) AS tp_count FROM `ts_` WHERE ( `status` = 1 ) AND ( `catid` = '87' ) LIMIT 1 
+[ 2013-04-03T14:21:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: list 77a38f0da011b05c83d24b8338cac9a2.php 第 14 行.
+[ 2013-04-03T14:21:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: page 77a38f0da011b05c83d24b8338cac9a2.php 第 21 行.
+[ 2013-04-03T06:22:01+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:01+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004081s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001700s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:22:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004369s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:22:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001357s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T14:22:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001102s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:22:02+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:02+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:02+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.004553s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T14:22:02+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001688s SQL = SELECT * FROM `ts_category` WHERE ( `pid` = '75' )
+[ 2013-04-03T14:22:02+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.005171s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:02+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001740s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='1' LIMIT 1 
+[ 2013-04-03T14:22:02+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.005764s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T14:22:02+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001738s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 84 LIMIT 1 
+[ 2013-04-03T06:22:03+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:03+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.005399s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.001632s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:22:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.003957s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:22:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.001669s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '84' ) LIMIT 1 
+[ 2013-04-03T14:22:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.000769s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '84' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:22:04+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:04+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:04+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.005696s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:04+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.006047s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:22:04+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.005441s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:22:04+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001398s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T14:22:04+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001753s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:22:08+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:08+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:08+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004446s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:08+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001477s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:22:08+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004803s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:22:08+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001840s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T14:22:08+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001926s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:22:09+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:09+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:09+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.004249s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:09+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.000862s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T14:22:09+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.003915s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T14:22:09+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.001042s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '84' ) LIMIT 1 
+[ 2013-04-03T14:22:09+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.002026s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '84' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T06:22:10+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:10+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.005845s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.001488s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '0' ) LIMIT 1 
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.001719s SQL = SELECT COUNT(id) AS tp_count FROM `ts_` WHERE ( `status` = 1 ) AND ( `catid` = '87' ) LIMIT 1 
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: list 77a38f0da011b05c83d24b8338cac9a2.php 第 14 行.
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: page 77a38f0da011b05c83d24b8338cac9a2.php 第 21 行.
+[ 2013-04-03T06:22:11+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T06:22:11+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.005075s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.001644s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '0' ) LIMIT 1 
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.000748s SQL = SELECT COUNT(id) AS tp_count FROM `ts_` WHERE ( `status` = 1 ) AND ( `catid` = '88' ) LIMIT 1 
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined variable: list 77a38f0da011b05c83d24b8338cac9a2.php 第 14 行.
+[ 2013-04-03T14:22:11+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined variable: page 77a38f0da011b05c83d24b8338cac9a2.php 第 21 行.
+[ 2013-04-03T12:38:54+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:54+00:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:54+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\content\Lib\Action\CategoryAction.class.php on line 76 and defined extend.php 第 2484 行.
+[ 2013-04-03T20:38:54+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.009791s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T20:38:54+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | SQL:  RunTime:0.001758s SQL = SELECT * FROM `ts_category` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-04-03T20:38:54+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T20:38:54+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T20:38:54+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T20:38:54+08:00 ] /trunk/index.php?app=Content&mod=Category&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-04-03T12:38:56+00:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:56+00:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:56+08:00 ] /trunk/index.php?app=Content&mod=Content&act=index | NOTIC: [8] Undefined variable: catid 8f6bf3910aef9bf122902c179809c981.php 第 9 行.
+[ 2013-04-03T12:38:56+00:00 ] /trunk/index.php?app=content&mod=Content&act=welcome | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:56+00:00 ] /trunk/index.php?app=content&mod=Content&act=welcome | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T12:38:56+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:56+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:56+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: id CategoryAction.class.php 第 81 行.
+[ 2013-04-03T20:38:56+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Creating default object from empty value CategoryAction.class.php 第 84 行.
+[ 2013-04-03T12:38:57+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:57+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.005524s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001893s SQL = SELECT * FROM `ts_category` WHERE ( `pid` = '0' )
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.037040s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001932s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='1' LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000970s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='1' LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000859s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000595s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000606s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000514s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='0' LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.004594s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001571s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 75 LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000672s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 76 LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000540s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 85 LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001272s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 86 LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000318s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 87 LIMIT 1 
+[ 2013-04-03T20:38:57+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.000488s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 88 LIMIT 1 
+[ 2013-04-03T12:38:58+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:58+00:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:58+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.006247s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T20:38:58+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001596s SQL = SELECT * FROM `ts_category` WHERE ( `pid` = '75' )
+[ 2013-04-03T20:38:58+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.004127s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:38:58+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.002104s SQL = SELECT * FROM `ts_model` WHERE 1=1 AND id='1' LIMIT 1 
+[ 2013-04-03T20:38:58+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.004184s SQL = SHOW COLUMNS FROM ts_category
+[ 2013-04-03T20:38:58+08:00 ] /trunk/index.php?app=content&mod=Category&act=showCategoryListAjax | SQL:  RunTime:0.001460s SQL = SELECT COUNT(*) AS tp_count FROM `ts_category` WHERE pid = 84 LIMIT 1 
+[ 2013-04-03T12:38:59+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:38:59+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:38:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.005439s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:38:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.000948s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T20:38:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.014961s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T20:38:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.001778s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '84' ) LIMIT 1 
+[ 2013-04-03T20:38:59+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=84&type=0&modelid=1 | SQL:  RunTime:0.000384s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '84' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:39:01+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:39:01+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:39:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004507s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:39:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.002458s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '1' ) LIMIT 1 
+[ 2013-04-03T20:39:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.004030s SQL = SHOW COLUMNS FROM ts_news
+[ 2013-04-03T20:39:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.002296s SQL = SELECT COUNT(id) AS tp_count FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) LIMIT 1 
+[ 2013-04-03T20:39:01+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=76&type=0&modelid=1 | SQL:  RunTime:0.001018s SQL = SELECT * FROM `ts_news` WHERE ( `status` = 1 ) AND ( `catid` = '76' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-04-03T12:39:03+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:39:03+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.004854s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.001404s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '0' ) LIMIT 1 
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.001077s SQL = SELECT COUNT(id) AS tp_count FROM `ts_` WHERE ( `status` = 1 ) AND ( `catid` = '87' ) LIMIT 1 
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: list 77a38f0da011b05c83d24b8338cac9a2.php 第 14 行.
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: page 77a38f0da011b05c83d24b8338cac9a2.php 第 21 行.
+[ 2013-04-03T12:39:03+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:39:03+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.006319s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.002344s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '0' ) LIMIT 1 
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.001104s SQL = SELECT COUNT(id) AS tp_count FROM `ts_` WHERE ( `status` = 1 ) AND ( `catid` = '88' ) LIMIT 1 
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined variable: list 77a38f0da011b05c83d24b8338cac9a2.php 第 14 行.
+[ 2013-04-03T20:39:03+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined variable: page 77a38f0da011b05c83d24b8338cac9a2.php 第 21 行.
+[ 2013-04-03T12:39:05+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:39:05+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.004218s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.000798s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '0' ) LIMIT 1 
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | SQL:  RunTime:0.000661s SQL = SELECT COUNT(id) AS tp_count FROM `ts_` WHERE ( `status` = 1 ) AND ( `catid` = '87' ) LIMIT 1 
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: list 77a38f0da011b05c83d24b8338cac9a2.php 第 14 行.
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=87&type=0&modelid=0 | NOTIC: [8] Undefined variable: page 77a38f0da011b05c83d24b8338cac9a2.php 第 21 行.
+[ 2013-04-03T12:39:05+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-04-03T12:39:05+00:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.004084s SQL = SHOW COLUMNS FROM ts_model
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.000781s SQL = SELECT `tablename` FROM `ts_model` WHERE ( `id` = '0' ) LIMIT 1 
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | SQL:  RunTime:0.000831s SQL = SELECT COUNT(id) AS tp_count FROM `ts_` WHERE ( `status` = 1 ) AND ( `catid` = '88' ) LIMIT 1 
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined variable: list 77a38f0da011b05c83d24b8338cac9a2.php 第 14 行.
+[ 2013-04-03T20:39:05+08:00 ] /trunk/index.php?app=content&mod=content&act=content&catid=88&type=0&modelid=0 | NOTIC: [8] Undefined variable: page 77a38f0da011b05c83d24b8338cac9a2.php 第 21 行.

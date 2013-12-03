@@ -1,0 +1,40 @@
+ 我的主题
+<table width="99%" border="0" align="center" cellpadding="3"
+	cellspacing="1" class="table_style" style="text-align: center;">
+	<tr>
+		<td width="10%">序号</td>
+		<td width="10%">名称</td>
+		<td width="70%">缩略图</td>
+		<td>操作</td>
+	</tr>
+	<volist name="myThemes" id="mt">
+	<tr>
+		<td>{$key+1}</td>
+		<td>{$mt.name}</td>
+		<td>{$mt.path}/{$mt.thumb}</td>
+		<td><a href="#">删除</a><a href="#">应用</a><a href="#">查看历史版本</a></td>
+	</tr>
+	</volist>
+</table>
+
+系统主题
+<table width="99%" border="0" align="center" cellpadding="3"
+	cellspacing="1" class="table_style" style="text-align: center;">
+	<tr>
+		<td width="10%">序号</td>
+		<td width="10%">名称</td>
+		<td width="70%">缩略图</td>
+		<td>操作</td>
+	</tr>
+	<volist name="sysThemes" id="mt">
+	<tr>
+		<td>{$key+1}</td>
+		<td>{$mt.name}</td>
+		<td>{$mt.path}/{$mt.thumb}</td>
+		<td><a href="#">导入到用户主题</a></td>
+	</tr>
+	</volist>
+</table>
+
+
+

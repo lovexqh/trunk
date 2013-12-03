@@ -1,0 +1,240 @@
+[ 2013-02-27T07:15:26+00:00 ] /trunk/index.php?app=auth&mod=Group&act=update | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:26+00:00 ] /trunk/index.php?app=auth&mod=Group&act=update | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:26+08:00 ] /trunk/index.php?app=auth&mod=Group&act=update | SQL:  RunTime:0.004215s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:15:26+08:00 ] /trunk/index.php?app=auth&mod=Group&act=update | SQL:  RunTime:0.002059s SQL = INSERT INTO `ts_group` (`id`,`name`,`sort`,`status`,`create_time`) VALUES ('','d','',1,1361949326)
+[ 2013-02-27T15:15:26+08:00 ] /trunk/index.php?app=auth&mod=Group&act=update | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:26+08:00 ] /trunk/index.php?app=auth&mod=Group&act=update | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:26+08:00 ] /trunk/index.php?app=auth&mod=Group&act=update | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-27T07:15:27+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:27+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 7 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.004609s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.003607s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:27+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T07:24:25+00:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:25+00:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.003981s SQL = SHOW COLUMNS FROM ts_group_user
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.005902s SQL = SHOW COLUMNS FROM ts_user
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.005086s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.002711s SQL = SELECT taUser.id AS uid,taUser.name AS name,taUser.nickname AS nickname,taUser.email AS email,taUser.create_time AS create_time,taUser.update_time AS update_time,taUser.status AS status,taGroup.id AS gid FROM ts_group_user Group_user  JOIN ts_user taUser ON taUser.id=Group_user.user_id  JOIN ts_group taGroup ON taGroup.id=Group_user.group_id
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [8] Undefined variable: catid 192596ae7ec42aceec1991aec03a31db.php 第 9 行.
+[ 2013-02-27T07:24:25+00:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:25+00:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [8] Undefined index: id GroupAction.class.php 第 12 行.
+[ 2013-02-27T07:24:25+00:00 ] /trunk/index.php?app=auth&mod=User&act=welcome | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:25+00:00 ] /trunk/index.php?app=auth&mod=User&act=welcome | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=auth&mod=User&act=welcome | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:24:25+08:00 ] /trunk/index.php?app=auth&mod=User&act=welcome | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T07:24:26+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:26+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:26+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 7 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:24:26+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.004034s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:24:26+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.001467s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:24:26+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:24:27+00:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:27+00:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | SQL:  RunTime:0.015581s SQL = SHOW COLUMNS FROM ts_role
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [8] Undefined index: name RoleAction.class.php 第 5 行.
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | SQL:  RunTime:0.001181s SQL = SELECT COUNT(id) AS tp_count FROM `ts_role` WHERE ( `name` LIKE '%%' ) LIMIT 1 
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | SQL:  RunTime:0.000848s SQL = SELECT * FROM `ts_role` WHERE ( `name` LIKE '%%' ) ORDER BY `id` desc LIMIT 0,10 
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [8] Undefined variable: content 2ea6850f8b0ed82f786c1c4379e28e12.php 第 27 行.
+[ 2013-02-27T15:24:28+08:00 ] /trunk/index.php?app=Auth&mod=Role&act=index | NOTIC: [8] Undefined variable: content 2ea6850f8b0ed82f786c1c4379e28e12.php 第 27 行.
+[ 2013-02-27T07:24:37+00:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:37+00:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:37+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.003742s SQL = SHOW COLUMNS FROM ts_group_user
+[ 2013-02-27T15:24:37+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.004267s SQL = SHOW COLUMNS FROM ts_user
+[ 2013-02-27T15:24:37+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.003452s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:24:37+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | SQL:  RunTime:0.001014s SQL = SELECT taUser.id AS uid,taUser.name AS name,taUser.nickname AS nickname,taUser.email AS email,taUser.create_time AS create_time,taUser.update_time AS update_time,taUser.status AS status,taGroup.id AS gid FROM ts_group_user Group_user  JOIN ts_user taUser ON taUser.id=Group_user.user_id  JOIN ts_group taGroup ON taGroup.id=Group_user.group_id
+[ 2013-02-27T15:24:37+08:00 ] /trunk/index.php?app=Auth&mod=User&act=index | NOTIC: [8] Undefined variable: catid 192596ae7ec42aceec1991aec03a31db.php 第 9 行.
+[ 2013-02-27T07:24:38+00:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:38+00:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:38+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [8] Undefined index: id GroupAction.class.php 第 12 行.
+[ 2013-02-27T07:24:38+00:00 ] /trunk/index.php?app=auth&mod=User&act=welcome | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:38+00:00 ] /trunk/index.php?app=auth&mod=User&act=welcome | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T07:24:40+00:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:24:40+00:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:40+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | SQL:  RunTime:0.003371s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:24:40+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | SQL:  RunTime:0.000796s SQL = SELECT * FROM `ts_group` WHERE ( `pid` = '0' )
+[ 2013-02-27T15:24:40+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | SQL:  RunTime:0.000597s SQL = SELECT COUNT(*) AS tp_count FROM `ts_group` WHERE pid = 30 LIMIT 1 
+[ 2013-02-27T15:24:40+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | SQL:  RunTime:0.000427s SQL = SELECT COUNT(*) AS tp_count FROM `ts_group` WHERE pid = 19 LIMIT 1 
+[ 2013-02-27T15:24:40+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | SQL:  RunTime:0.000390s SQL = SELECT COUNT(*) AS tp_count FROM `ts_group` WHERE pid = 25 LIMIT 1 
+[ 2013-02-27T15:24:40+08:00 ] /trunk/index.php?app=auth&mod=Group&act=showGroupList | SQL:  RunTime:0.000478s SQL = SELECT COUNT(*) AS tp_count FROM `ts_group` WHERE pid = 31 LIMIT 1 
+[ 2013-02-27T07:24:41+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 16 行.
+[ 2013-02-27T07:24:41+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:24:41+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 7 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:24:41+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.006306s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:24:41+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.000560s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:24:41+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:25:41+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:25:41+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:25:41+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:25:41+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:25:41+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: id 1263dd09d4b12c982a64121c47ab4d71.php 第 12 行.
+[ 2013-02-27T15:25:41+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: name 1263dd09d4b12c982a64121c47ab4d71.php 第 18 行.
+[ 2013-02-27T15:25:41+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: sort 1263dd09d4b12c982a64121c47ab4d71.php 第 26 行.
+[ 2013-02-27T07:25:43+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:25:43+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:25:43+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:25:43+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.004420s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:25:43+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.002150s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:25:43+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:25:46+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:25:46+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:25:46+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:25:47+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.004065s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:25:47+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.001055s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:25:47+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:26:55+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:26:55+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.004582s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.001416s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:26:55+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T07:26:56+00:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=25 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:26:56+00:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=25 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:26:56+08:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=25 | SQL:  RunTime:0.003810s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:26:56+08:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=25 | SQL:  RunTime:0.002181s SQL = SELECT * FROM `ts_group` WHERE ( `id` = '25' ) LIMIT 1 
+[ 2013-02-27T07:26:59+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:26:59+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:26:59+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:26:59+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.005105s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:26:59+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.002178s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:26:59+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:27:04+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:04+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:04+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: id 1263dd09d4b12c982a64121c47ab4d71.php 第 12 行.
+[ 2013-02-27T15:27:04+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: name 1263dd09d4b12c982a64121c47ab4d71.php 第 18 行.
+[ 2013-02-27T15:27:04+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=25 | NOTIC: [8] Undefined index: sort 1263dd09d4b12c982a64121c47ab4d71.php 第 26 行.
+[ 2013-02-27T07:27:07+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:07+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:27:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.003874s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:27:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.001507s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:27:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:27:38+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:38+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:38+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:27:38+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.006440s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:27:38+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.000636s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:27:38+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:27:43+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:43+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:43+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:27:43+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:27:43+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: id 1263dd09d4b12c982a64121c47ab4d71.php 第 12 行.
+[ 2013-02-27T15:27:43+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: name 1263dd09d4b12c982a64121c47ab4d71.php 第 18 行.
+[ 2013-02-27T15:27:43+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: sort 1263dd09d4b12c982a64121c47ab4d71.php 第 26 行.
+[ 2013-02-27T07:27:46+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:46+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:47+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.004208s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:27:47+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.000426s SQL = INSERT INTO `ts_group` (`id`,`name`,`sort`,`status`,`create_time`) VALUES ('','rr','rr',1,1361950067)
+[ 2013-02-27T15:27:47+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-27T07:27:48+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:48+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:48+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:27:48+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.004559s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:27:48+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.001670s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:27:48+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:27:53+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:53+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:53+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: id 1263dd09d4b12c982a64121c47ab4d71.php 第 12 行.
+[ 2013-02-27T15:27:53+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: name 1263dd09d4b12c982a64121c47ab4d71.php 第 18 行.
+[ 2013-02-27T15:27:53+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: sort 1263dd09d4b12c982a64121c47ab4d71.php 第 26 行.
+[ 2013-02-27T07:27:55+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:55+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:55+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.003749s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:27:55+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.000818s SQL = INSERT INTO `ts_group` (`id`,`name`,`sort`,`status`,`create_time`) VALUES ('','rrrrrrrrrrrrr','',1,1361950075)
+[ 2013-02-27T15:27:55+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-27T07:27:56+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:27:56+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:27:56+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:27:56+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.004556s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:27:56+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.001490s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:27:56+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:28:57+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:28:57+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:28:57+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:28:57+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:28:57+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: id 1263dd09d4b12c982a64121c47ab4d71.php 第 13 行.
+[ 2013-02-27T15:28:57+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: name 1263dd09d4b12c982a64121c47ab4d71.php 第 19 行.
+[ 2013-02-27T15:28:57+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: sort 1263dd09d4b12c982a64121c47ab4d71.php 第 27 行.
+[ 2013-02-27T07:29:00+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:00+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:00+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:29:00+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.004210s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:29:00+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.003480s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:29:00+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:29:04+00:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=33 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:04+00:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=33 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:04+08:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=33 | SQL:  RunTime:0.004196s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:29:04+08:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=33 | SQL:  RunTime:0.001203s SQL = SELECT * FROM `ts_group` WHERE ( `id` = '33' ) LIMIT 1 
+[ 2013-02-27T07:29:07+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:07+00:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:29:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.003843s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:29:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | SQL:  RunTime:0.001168s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:29:07+08:00 ] /trunk/index.php?app=Auth&mod=Group&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:29:09+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:09+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:09+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: id 1263dd09d4b12c982a64121c47ab4d71.php 第 13 行.
+[ 2013-02-27T15:29:09+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: name 1263dd09d4b12c982a64121c47ab4d71.php 第 19 行.
+[ 2013-02-27T15:29:09+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: sort 1263dd09d4b12c982a64121c47ab4d71.php 第 27 行.
+[ 2013-02-27T07:29:15+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:15+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:15+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.004830s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:29:15+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.001321s SQL = INSERT INTO `ts_group` (`id`,`name`,`pid`,`sort`,`status`,`create_time`) VALUES ('','rrqewrqewr','30','qewrqwer',1,1361950155)
+[ 2013-02-27T15:29:15+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-27T07:29:16+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:16+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:16+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:29:16+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.003931s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:29:16+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.001854s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:29:16+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:29:16+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:29:20+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:20+00:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:20+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: id 1263dd09d4b12c982a64121c47ab4d71.php 第 13 行.
+[ 2013-02-27T15:29:20+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: name 1263dd09d4b12c982a64121c47ab4d71.php 第 19 行.
+[ 2013-02-27T15:29:20+08:00 ] /trunk/index.php?app=auth&mod=Group&act=add&pid=30 | NOTIC: [8] Undefined index: sort 1263dd09d4b12c982a64121c47ab4d71.php 第 27 行.
+[ 2013-02-27T07:29:23+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 16 行.
+[ 2013-02-27T07:29:23+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:23+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.006227s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:29:23+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.001431s SQL = INSERT INTO `ts_group` (`id`,`name`,`pid`,`sort`,`status`,`create_time`) VALUES ('','r','30','r',1,1361950163)
+[ 2013-02-27T15:29:23+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-27T07:29:24+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:29:24+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:29:24+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:29:24+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.003921s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:29:24+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.001903s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:29:24+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:29:24+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T07:30:08+00:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=34 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:30:08+00:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=34 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:30:08+08:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=34 | SQL:  RunTime:0.004715s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:30:08+08:00 ] /trunk/index.php?app=auth&mod=Group&act=edit&id=34 | SQL:  RunTime:0.000920s SQL = SELECT * FROM `ts_group` WHERE ( `id` = '34' ) LIMIT 1 
+[ 2013-02-27T07:30:14+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:30:14+00:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:30:14+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.014449s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:30:14+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | SQL:  RunTime:0.002127s SQL = UPDATE `ts_group` SET `name`='qweqe',`pid`='30',`sort`='0' WHERE ( `id` = '34' )
+[ 2013-02-27T15:30:14+08:00 ] /trunk/index.php?app=auth&mod=Group&act=saveOrupdate | NOTIC: [8] Undefined variable: publicCss a604f4aaa14c3de8abe4275a7ae9b903.php 第 7 行.
+[ 2013-02-27T07:30:15+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:30:15+00:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:30:15+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\auth\Lib\Action\GroupAction.class.php on line 8 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:30:15+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.003866s SQL = SHOW COLUMNS FROM ts_group
+[ 2013-02-27T15:30:15+08:00 ] /trunk/index.php?app=auth&mod=Group | SQL:  RunTime:0.001302s SQL = SELECT * FROM `ts_group` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:30:15+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:30:15+08:00 ] /trunk/index.php?app=auth&mod=Group | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.

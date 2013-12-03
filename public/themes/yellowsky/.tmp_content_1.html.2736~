@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" href="/Public/css/common.css" rel="stylesheet" />
+    <link type="text/css" href="/Public/css/layout.css" rel="stylesheet" />
+    <script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>
+
+</head>
+<body>
+<div id="container">
+  <div id="header">
+      <include file="./Tpl/bluesky/Index/header.html"/>
+  </div>
+  <div id="mainContent">
+    <div class="sidebar">
+        <div class="salein edui-tpl-salein d">
+
+        </div>
+        <div class="news edui-tpl-news d">
+            {:W('Display',array('position'=>"news",'layoutid'=>"$layoutid"))}
+        </div>
+        <div class="guiju edui-tpl-guiju d">
+            {:W('Display',array('position'=>"guiju",'layoutid'=>"$layoutid"))}
+        </div>
+        <div class="history edui-tpl-history d">
+            {:W('Display',array('position'=>"history",'layoutid'=>"$layoutid"))}
+         </div>
+    </div>
+    <div id="content">
+        <div class="adimage edui-tpl-adimage">
+        adimage
+        </div>
+        <div class="area edui-tpl-area">
+            {:W('Display',array('position'=>"area",'layoutid'=>"$layoutid"))}
+        </div>
+        <div class="area edui-tpl-area1">
+            {:W('Display',array('position'=>"area1",'layoutid'=>"$layoutid"))}
+        </div>
+    </div>
+      <div class="clear"></div>
+  </div>
+  <div>
+      <include file="./Tpl/bluesky/Index/footer.html"/>
+  </div>
+</div>
+<input type="hidden" id="subpath" value="__APP__">
+    <input type="hidden" id="layoutid" value="{$layoutid}">
+<eq name="modify" value="1">
+    <script type="text/javascript" src="/Public/js/updateLayout_h.js"></script>
+</eq>
+</body>
+</html>

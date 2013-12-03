@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<script type="text/javascript">
+    window.UEDITOR_HOME_URL = "__PUBLIC__/ueditor_1_2_0/";
+</script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor_1_2_0/editor_config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor_1_2_0/editor_all_min.js"></script>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/ueditor_1_2_0/themes/default/ueditor.css"/>
+	<link rel="stylesheet" href="__PUBLIC__/admin/css/consolidated_common.css" type="text/css"/>
+<script src="__PUBLIC__/js/livevalidation.js" type="text/javascript"></script>
+    <link type="text/css" href="/Public/css/common.css" rel="stylesheet"/>
+    <link type="text/css" href="/Public/css/layoutpublish.css" rel="stylesheet"/>
+    <script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>
+		<script src="http://api.map.baidu.com/api?v=1.3" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <include file="./Tpl/bluesky/Index/header.html"/>
+    </div>
+    <div id="mainContent">
+        <div class="content">
+       
+		    <div class="contentdetail">
+           	<div class="detailnav"><ul class="myul cotentul"><li class="floatleft tabred t14w">编辑房源</li></ul>
+			<div class="bgtab"></div>
+			</div>
+			<div class="myblod mynewsdetail">
+				<div class="titlebg"></div>
+				<div class="padding20">
+				<form action="__URL__/update" method="post" enctype="multipart/form-data">
+            <table class="myaddhome" width="100%">
+                <tr>
+                    <td class="textr" width="150px" >
+                        <span class="fontw">标题：</span>
+                    </td>
+                    <td class="textl" >
+                        <input maxlength="40" title="必填" type="text" value="{$vo.title}" name="title" class="myinput" id="f1">
+                    </td></tr><tr>
+                    <td class="textr" >
+                        <span class="fontw">房源类型：</span>
+                    </td>
+                    <td class="textl" >
+                          <select name="hometypeid" title="必选" id="f2">
+                             <volist name="homeType" id="homeType">
+                    <option
+                    <if condition="$vo['hometypeid'] == $homeType['id']">
+                        selected="selected"
+                    </if>
+                    value="{$homeType.id}">{$homeType.name}</option></volist>
+                        </select>
+                    </td></tr><tr>
+                    <td  class="textr"><span class="fontw">关键字：</span></td>
+                    <td class="textl" ><input type="text" title="必填" maxlength="20"  value="{$vo.keywords}"class="myinput" name="keywords"
+                                                         id="f3"></td>
+</tr>
+                <tr >
+                    <td  class="textr"><span class="fontw">朝向：</span></td>
+                    <td class="textl" ><input name="face" title="必填" id="f4" value="{$vo.face}" maxlength="20" class="myinput"/></td>
+                </tr>
+                <tr >
+                    <td class="textr"><span class="fontw">户型：</span></td>
+                    <td class="textl"><input name="homesize" value="{$vo.homesize}" title="必填整数" id="f5" maxlength="3" class="width30"/> 室 
+					<input title="必填数字" id="f6" name="parlour"value="{$vo.parlour}" maxlength="3" class="width30"/>
+                        厅 <input name="toilet" value="{$vo.toilet}" maxlength="3"  id="f7" title="必填整数" class="width30"/> 卫
+                    </td></tr><tr>
+                    <td class="textr"><span class="fontw">户型面积：</span></td>
+                    <td class="textl"><input name="square" maxlength="10" value="{$vo.square}" id="f8" title="必填整数" class="width30"/> 平米</td>
+					</tr><tr>
+                    <td class="textr"><span class="fontw">层数：</span></td>
+                    <td class="textl">
+                        第 <input name="myhigh"  value="{$vo.myhigh}" id="f9" maxlength="3" title="必填数字" class="width30"/> / <input  value="{$vo.high}" name="high" title="必填数字" id="f10" maxlength="3" class="width30"/> 层数
+                    </td></tr><tr>
+                    <td class="textr"><span class="fontw">装修：</span></td>
+                    <td class="textl"><select name="fitment">
+                       <option
+                <if condition="$vo['fitment'] eq 1">
+                    selected="selected"
+                </if>
+                value="1">普通装修</option>
+                <option
+                <if condition="$vo['fitment'] eq 2">
+                    selected="selected"
+                </if>
+                value="2">精装修</option>
+                    </select></td>
+
+                </tr>
+                <tr >
+                    <td class="textr" >
+                        <span class="fontw">地址：</span>
+                    </td>
+                    <td class="textl" >
+                        <input maxlength="100" title="必填"  value="{$vo.address}" id="f11" type="text" name="address" class="myinput" >
+                    </td></tr><tr>
+                    <td class="textr" ><span class="fontw">小区：</span></td>
+                    <td class="textl" ><select name="homeregionid" title="必选" id="f12">
+                        <volist name="homeRegion" id="region">
+                    <option
+                    <if condition="$vo['homeregionid'] eq $region['id']">
+                        selected="selected"
+                    </if>
+                    value="{$region.id}">{$region.name}</option></volist>
+                    </select></td></tr><tr>
+                    <td class="textr"><span class="fontw">价格：</span></td>
+                    <td class="textl"><input name="price" maxlength="10"  id="f15" title="必填整数" value="{$vo.price}" class="width30"/> 元</td>
+                   </tr><tr>
+				    <td class="textr"><span class="fontw">房屋配置：</span></td>
+                    <td class="textl"  id="myconfig">
+                       <volist name="homeConfig" id="config">
+                            <input type="checkbox"  class="width10" value="{$config.id}"/> {$config.name}&nbsp;
+                        </volist>
+                    </td>
+					<input id="homeconfigid" name="homeconfigid" type="hidden"/>
+                </tr>
+           
+
+                <tr  height="165px">
+                    <td class="textr" >
+                        <span class="fontw">房屋描述：</span>
+                    </td>   
+                    <td class="textl" >
+                        <textarea cols="52" rows="10" title="必填字数小于5000字" id="f13" name="description">{$vo.description}</textarea>
+                    </td></tr><tr>
+                    <td class="textr"><span class="fontw">小区描述：</span></td>
+                    <td class="textl"><textarea title="必填字数小于5000字" id="f14" cols="52" rows="10" name="village">{$vo.village}</textarea></td>
+
+                </tr>
+                <tr>
+                    <td class="textr">
+                        <span class="fontw">地理位置：</span>
+                    </td>
+                    <td class="textl">
+                        <input id="location" title="必填" name="map" value="{$vo.map}" class="myinput" maxlength="50" size="20"/>
+                    </td></tr>
+					<tr  height="145px">
+                    <td class="textr"></td><td  class="textl">
+                        <div id="mapcontainer" class="mymap"></div>
+                    </td>
+                </tr>
+                <tr >
+                	<td></td>
+                    <td>
+                        <input type="submit" value="提交审核" class="back"/>&nbsp;&nbsp;
+                        <input type="button" value="返 回" class="back" onclick="window.location.href='__URL__';"/>
+
+                    </td>
+                </tr>
+            </table>
+			 <input value="{$vo.homeconfigid}" type="hidden" id="oldconfig"/>
+			 <input type="hidden" name="id" value="{$vo.id}"/>
+			 <input type="hidden" name="publish" value="0"/>
+        </form>
+				</div>
+			</div>
+           </div>
+        </div>
+        <div class="sidebar">
+            <include file="./Tpl/bluesky/Index/usercenter.html"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer" class="edui-tpl-footer">
+        <include file="./Tpl/bluesky/Index/footer.html"/>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+
+
+    (function () {
+        //初始化房屋配置
+        var config = document.getElementById( 'oldconfig' ).value;
+        var allconfig = document.getElementById( 'myconfig' ).getElementsByTagName( 'input' );
+        var myconfig = config.split( ',' );
+        for ( var j = 0, b; b = myconfig[j++]; ) {
+            for ( var i = 0, a; a = allconfig[i++]; ) {
+                if ( b == a.value ) {
+                    a.checked = true;
+                    break;
+                }
+            }
+        }
+    })();
+
+    //location
+    var local = document.getElementById("location");
+    local.onblur = function(){
+        initMap();
+    }
+    var initMap = function(){
+        //地图
+        var map = new BMap.Map("mapcontainer"); // 创建地图实例 创建地图实例
+        var myGeo = new BMap.Geocoder();
+        myGeo.getPoint(local.value,function(point){
+            if(point){
+                map.centerAndZoom(point,16);
+                map.addOverlay(new BMap.Marker(point));
+            }
+        },"北京市");
+    }
+    initMap();
+
+</script>
+  <script type="text/javascript">
+		            var f1 = new LiveValidation('f1', {onlyOnSubmit: true ,validMessage: " "});
+		            f1.add(Validate.Presence, {failureMessage: " "});
+		            var f2 = new LiveValidation('f2', {onlyOnSubmit: true ,validMessage: " "});
+		            f2.add(Validate.Presence, {failureMessage: " "});
+					
+					  var f3 = new LiveValidation('f3',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f3.add(Validate.Presence, {failureMessage: " "});
+					
+					  var f4 = new LiveValidation('f4',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f4.add(Validate.Presence, {failureMessage: " "});
+					
+					  var f5 = new LiveValidation('f5',{onlyOnSubmit: true  ,validMessage: " "} );
+					f5.add(Validate.Presence, {failureMessage: " "});
+		           f5.add(Validate.Numericality, { onlyInteger: true,failureMessage:" "});
+					 f5.add(Validate.Numericality, { minimum: 0 ,failureMessage: " "} );
+						  var f6 = new LiveValidation('f6',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f6.add(Validate.Numericality, { onlyInteger: true,failureMessage:" "});
+					f6.add(Validate.Presence, {failureMessage: " "});
+					 f6.add(Validate.Numericality, { minimum: 0 ,failureMessage: " "} );
+						  var f7 = new LiveValidation('f7',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f7.add(Validate.Numericality, { onlyInteger: true,failureMessage:" "});
+					f7.add(Validate.Presence, {failureMessage: " "});
+					 f7.add(Validate.Numericality, { minimum: 0 ,failureMessage: " "} );
+						  var f8 = new LiveValidation('f8',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f8.add(Validate.Numericality, {failureMessage:" "});
+					f8.add(Validate.Presence, {failureMessage: " "});
+					 f8.add(Validate.Numericality, { minimum: 0 ,failureMessage: " "} );
+					 
+					   var f9 = new LiveValidation('f9',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f9.add(Validate.Numericality, { onlyInteger: true,failureMessage:" "});
+					f9.add(Validate.Presence, {failureMessage: " "});
+					 f9.add(Validate.Numericality, { minimum: 0 ,failureMessage: " "} );
+					 
+					   var f10 = new LiveValidation('f10',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f10.add(Validate.Numericality, { onlyInteger: true,failureMessage:" "});
+					f10.add(Validate.Presence, {failureMessage: " "});
+					 f10.add(Validate.Numericality, { minimum: 0 ,failureMessage: " "} );
+					 
+					 	   var f11 = new LiveValidation('f11',{onlyOnSubmit: true  ,validMessage: " "} );
+					f11.add(Validate.Presence, {failureMessage: " "});
+					 	   var f12 = new LiveValidation('f12',{onlyOnSubmit: true  ,validMessage: " "} );
+					f12.add(Validate.Presence, {failureMessage: " "});
+					 
+//					   var f13 = new LiveValidation('f13',{onlyOnSubmit: true  ,validMessage: " "} );
+//					   f13.add(Validate.Presence, {failureMessage: " "});
+//		            f13.add(Validate.Length, { maximum: 5000 } );
+//					
+//					  var f14 = new LiveValidation('f14',{onlyOnSubmit: true  ,validMessage: " "} );
+//					  f14.add(Validate.Presence, {failureMessage: " "});
+//		            f14.add(Validate.Length, { maximum: 5000 } );
+					   var f15 = new LiveValidation('f15',{onlyOnSubmit: true  ,validMessage: " "} );
+		           f15.add(Validate.Numericality, { onlyInteger: true,failureMessage:" "});
+					f15.add(Validate.Presence, {failureMessage: " "});
+					 f15.add(Validate.Numericality, { minimum: 0 ,failureMessage: " "} );
+					  	   var location2 = new LiveValidation('location',{onlyOnSubmit: true  ,validMessage: " "} );
+					location2.add(Validate.Presence, {failureMessage: " "});
+					 
+					  var automaticOnSubmit = f1.form.onsubmit;
+          f1.form.onsubmit = function(){
+	          var valid = automaticOnSubmit();
+			  var result='';
+			var allconfig = document.getElementById('myconfig').getElementsByTagName('input');
+			for(var i=0,check;check=allconfig[i++];){
+				if(check.checked){
+					result+=check.value+',';
+				}
+			}
+			document.getElementById('homeconfigid').value = result;
+				var content = ue.getContent();
+		var content1 = ue1.getContent();
+		if (content.length < 10000 && content1.length < 10000) {
+			if (valid) {
+				return true;
+			}
+			else {
+				alert('提交内容有误，请查看红色提示框！');
+			}
+		}else{
+			alert('提交内容有误，请查看红色提示框！');
+		}
+            return false;
+          }
+		  
+		  
+		      var ue = new baidu.editor.ui.Editor({
+        toolbars:[['Bold', 'Italic', 'Underline','|','ForeColor', 'BackColor', 'InsertOrderedList', 'InsertUnorderedList']],
+        textarea:"description",
+        elementPathEnabled:false,
+        maximumWords:500,
+        minFrameHeight:150,
+        autoHeightEnabled:false
+    });
+    ue.render('f13');
+    var ue1 = new baidu.editor.ui.Editor({
+        toolbars:[['Bold', 'Italic', 'Underline','|','ForeColor', 'BackColor', 'InsertOrderedList', 'InsertUnorderedList']],
+        textarea:"village",
+        elementPathEnabled:false,
+        maximumWords:500,
+        minFrameHeight:130,
+        autoHeightEnabled:false
+    });
+    ue1.render('f14');
+		          </script>  
+</html>

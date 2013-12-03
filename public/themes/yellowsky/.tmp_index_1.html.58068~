@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link type="text/css" href="/Public/css/common.css" rel="stylesheet" />
+    <link type="text/css" href="/Public/css/layout.css" rel="stylesheet" />
+    <script type="text/javascript" src="/Public/jsframe/xf_api.js"></script>
+<style type="text/css">
+    .login1 {
+        width: 248px;
+        padding: 10px 0;
+        font: 12px/24px "宋体";
+        overflow: hidden;
+    }
+    .login1 dd {
+        width: 90px;
+        margin-left: 12px;
+        _margin-left: 6px;
+        float: left;
+    }
+     .icon_sale, .icon_backstage, .icon_manage, .icon_buy, .icon_count, .icon_bbs {
+    background: url(/Public/images/icon_mysf.gif) no-repeat 0 0;
+    padding-left: 20px;
+    }
+    .icon_sale {background-position: -220px -112px;}
+    .icon_buy {background-position: -220px -396px;}
+    .login1 dd a {
+        color: #323232;
+    padding-top: 5px;
+    display: block;
+    text-decoration: none;
+    }
+</style>
+</head>
+<body>
+<div id="container">
+    <div class="topad edui-tpl-topad">
+        <div id="topad_show">
+            {:W('Display',array('position'=>"topad",'layoutid'=>"$layoutid"))}
+        </div>
+    </div>
+  <div id="header">
+      <include file="header.html"/>
+  </div>
+  <div id="mainContent">
+    <div class="sidebar">
+        <div id="loginWindow">
+            <dl class="login1">
+                <dd class="icon_sale">
+                    <a target="_blank" href="__APP__/Home/HomeIndex/sellHouse" id="esf_B03_32">我要卖房</a>
+                </dd>
+                <dd class="icon_buy">
+                    <a target="_blank" href="__APP__/Home/HomeIndex/sellHouse" id="esf_B03_33">我要买房</a>
+                </dd>
+                <dd class="icon_sale">
+                    <a target="_blank" href="__APP__/Home/HomeIndex/rentHouse" id="esf_B03_34">我要出租</a>
+                </dd>
+                <dd class="icon_buy">
+                    <a target="_blank" href="__APP__/Home/HomeIndex/sellHouse" id="esf_B03_35">我要求租</a>
+                </dd>
+                <dt class="clear"></dt>
+            </dl>
+        </div>
+            <!--<a href="__APP__/Home/HomeIndex/add"><img src="/Public/images/indexright.png"></a>-->
+        <div class="news edui-tpl-news d">
+        <div id="news_show">
+            {:W('Display',array('position'=>"news",'layoutid'=>"$layoutid"))}
+        </div>
+        </div>
+        <div class="guiju edui-tpl-guiju d">
+        <div id="guiju_show">
+            {:W('Display',array('position'=>"guiju",'layoutid'=>"$layoutid"))}
+        </div>
+        </div>
+        <div class="history edui-tpl-history d">
+        <div id="history_show">
+            {:W('Display',array('position'=>"history",'layoutid'=>"$layoutid"))}
+         </div>
+         </div>
+    </div>
+    <div id="content">
+        <div class="img edui-tpl-img">
+        <div id="img_show">
+            {:W('Display',array('position'=>"img",'layoutid'=>"$layoutid"))}
+        </div>
+        </div>
+        <!--<img src="/Public/images/indexshow.png">-->
+        <div class="area edui-tpl-area">
+        <div id="area_show">
+            {:W('Display',array('position'=>"area",'layoutid'=>"$layoutid"))}
+        </div>
+        </div>
+        <div class="topad1 edui-tpl-topad1">
+            <div id="topad1_show">
+                {:W('Display',array('position'=>"topad1",'layoutid'=>"$layoutid"))}
+            </div>
+        </div>
+        <div class="area1 edui-tpl-area1">
+        <div id="area1_show">
+            {:W('Display',array('position'=>"area1",'layoutid'=>"$layoutid"))}
+        </div>
+        </div>
+        <div class="topad2 edui-tpl-topad2">
+            <div id="topad2_show">
+                {:W('Display',array('position'=>"topad2",'layoutid'=>"$layoutid"))}
+            </div>
+        </div>
+    </div>
+      <div class="clear"></div>
+  </div>
+  <div>
+      <include file="./Tpl/bluesky/Index/footer.html"/>
+  </div>
+</div>
+<input type="hidden" id="subpath" value="__APP__">
+    <input type="hidden" id="layoutid" value="{$layoutid}">
+<eq name="modify" value="1">
+    <script type="text/javascript" src="/Public/js/updateLayout_h.js"></script>
+</eq>
+</body>
+</html>

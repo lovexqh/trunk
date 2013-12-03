@@ -1,0 +1,23 @@
+@import "reset.css";
+body {
+	background-color: #F9F9F9;
+	font-family: Verdana, Arial,Vrinda,Tahoma;
+	font-size:12px;
+	color:#666;
+}
+a {
+	color: #555;
+	text-decoration:none;
+}
+a:hover {
+	color: #0099CC;
+}
+.clear{clear: both;}
+#container{width: 1000px;margin: 0 auto;}
+.floatleft{
+    float: left;
+}
+.textcenter {
+text-align: center;
+}
+

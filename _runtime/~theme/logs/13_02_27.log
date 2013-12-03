@@ -1,0 +1,119 @@
+[ 2013-02-27T07:15:10+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:10+00:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:10+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:10+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:10+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:10+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:10+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: list 7bc5e9aedc52e299094280691e52f050.php 第 14 行.
+[ 2013-02-27T15:15:10+08:00 ] /trunk/index.php?app=Theme&mod=Template&act=index | NOTIC: [8] Undefined variable: page 7bc5e9aedc52e299094280691e52f050.php 第 22 行.
+[ 2013-02-27T07:15:12+00:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:12+00:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:12+08:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | SQL:  RunTime:0.004723s SQL = SHOW COLUMNS FROM ts_layout
+[ 2013-02-27T15:15:12+08:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | SQL:  RunTime:0.001252s SQL = SELECT COUNT(id) AS tp_count FROM `ts_layout` LIMIT 1 
+[ 2013-02-27T15:15:12+08:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | SQL:  RunTime:0.000716s SQL = SELECT * FROM `ts_layout` ORDER BY `id` desc LIMIT 0,10 
+[ 2013-02-27T15:15:12+08:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:12+08:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:12+08:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:12+08:00 ] /trunk/index.php?app=Theme&mod=Layout&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T07:15:14+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:14+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\theme\Lib\Action\MenuAction.class.php on line 4 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.003737s SQL = SHOW COLUMNS FROM ts_menu
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.001109s SQL = SELECT * FROM `ts_menu` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:14+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T07:15:19+00:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:19+00:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:19+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:19+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:19+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined variable: vo 6aff0f60db857a5f011669b9382949ce.php 第 12 行.
+[ 2013-02-27T15:15:19+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined variable: vo 6aff0f60db857a5f011669b9382949ce.php 第 18 行.
+[ 2013-02-27T15:15:19+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined variable: vo 6aff0f60db857a5f011669b9382949ce.php 第 26 行.
+[ 2013-02-27T07:15:21+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:21+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\theme\Lib\Action\MenuAction.class.php on line 4 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.004292s SQL = SHOW COLUMNS FROM ts_menu
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.001989s SQL = SELECT * FROM `ts_menu` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:21+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T07:15:24+00:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 16 行.
+[ 2013-02-27T07:15:24+00:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:24+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined variable: vo 6aff0f60db857a5f011669b9382949ce.php 第 12 行.
+[ 2013-02-27T15:15:24+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined variable: vo 6aff0f60db857a5f011669b9382949ce.php 第 18 行.
+[ 2013-02-27T15:15:24+08:00 ] /trunk/index.php?app=theme&mod=menu&act=add&pid=6 | NOTIC: [8] Undefined variable: vo 6aff0f60db857a5f011669b9382949ce.php 第 26 行.
+[ 2013-02-27T07:15:29+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:29+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\theme\Lib\Action\MenuAction.class.php on line 4 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.004318s SQL = SHOW COLUMNS FROM ts_menu
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.001840s SQL = SELECT * FROM `ts_menu` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:29+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T07:15:41+00:00 ] /trunk/index.php?app=theme&mod=menu&act=edit&id=5 | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:41+00:00 ] /trunk/index.php?app=theme&mod=menu&act=edit&id=5 | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:41+08:00 ] /trunk/index.php?app=theme&mod=menu&act=edit&id=5 | SQL:  RunTime:0.004568s SQL = SHOW COLUMNS FROM ts_menu
+[ 2013-02-27T15:15:41+08:00 ] /trunk/index.php?app=theme&mod=menu&act=edit&id=5 | SQL:  RunTime:0.001604s SQL = SELECT * FROM `ts_menu` WHERE ( `id` = '5' ) LIMIT 1 
+[ 2013-02-27T07:15:44+00:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:44+00:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [8] Undefined variable: taglibs ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [2] Invalid argument supplied for foreach() ThinkTemplate.class.php 第 254 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [8] Undefined index: id bde6c39192a0c6d2018c4f77ad98b400.php 第 20 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [8] Undefined index: id bde6c39192a0c6d2018c4f77ad98b400.php 第 20 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [8] Undefined index: id bde6c39192a0c6d2018c4f77ad98b400.php 第 20 行.
+[ 2013-02-27T15:15:44+08:00 ] /trunk/index.php?app=Theme&mod=Theme&act=index | NOTIC: [8] Undefined variable: page bde6c39192a0c6d2018c4f77ad98b400.php 第 24 行.
+[ 2013-02-27T07:15:45+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2048] Declaration of XdataModel::save() should be compatible with that of Model::save() XdataModel.class.php 第 0 行.
+[ 2013-02-27T07:15:45+00:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: banip App.class.php 第 493 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [2] Missing argument 5 for getChildTree(), called in D:\Zend\Apache2\htdocs\trunk\apps\theme\Lib\Action\MenuAction.class.php on line 4 and defined extend.php 第 2484 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.003704s SQL = SHOW COLUMNS FROM ts_menu
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | SQL:  RunTime:0.002503s SQL = SELECT * FROM `ts_menu` WHERE ( `status` = 1 ) ORDER BY sort
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined variable: name extend.php 第 2508 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 20 行.
+[ 2013-02-27T15:15:45+08:00 ] /trunk/index.php?app=Theme&mod=Menu&act=index | NOTIC: [8] Undefined index: create_time a9c09f4fab3fc491911881d0fa24fd86.php 第 22 行.
